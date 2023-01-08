@@ -9,7 +9,7 @@ function TheDebate() {
     },[])
     const LatestArticle = latest.map((item)=>{
         return (
-            <div className='latest-container'>
+            <div className='latest-container' key={item.id}>
                 <img src={item.img} alt={item.alt} className="latest-images"/>
                 <div>
                     <Link to={item.link} className="link-name">{item.link}</Link>

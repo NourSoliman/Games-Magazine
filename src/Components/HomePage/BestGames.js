@@ -10,8 +10,8 @@ function BestGames() {
     },[])
     const bestArticle = best.map((item) => {
         return (
-            <Col sm={4} xs={12} key={item.id} className="best-Article">
-            <div className='bestgames-container'>
+            <Col sm={4} xs={12} key={item.id} className="best-Article" >
+            <div className='bestgames-container' key={item.id}>
                 <img src={item.img} alt={item.alt} className="best-images"/>
                 <div>
                     <Link to={item.link} className="header-link">{item.link}</Link>

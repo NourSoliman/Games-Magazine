@@ -10,7 +10,7 @@ const Advertisement = () => {
     const AdvertisementArea = adver.map((item)=>{
         return (
             
-            <div className="newgames-container">
+            <div className="newgames-container" key={item.id}>
                 <img src={item.img} alt={item.alt} className="new-image"/>
                 <div className='adver-content'>
                 <div>

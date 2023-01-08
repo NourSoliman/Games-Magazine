@@ -9,7 +9,7 @@ function MoreGames() {
     },[])
     const MoreInfoGames = more.map((item)=>{
         return (
-            <div className='moregames-container'>
+            <div className='moregames-container' key={item.id}>
                 <div>
                     <img src={item.img} alt={item.alt} className="more-images"/>
                 </div>

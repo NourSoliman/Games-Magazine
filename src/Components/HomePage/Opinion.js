@@ -9,7 +9,7 @@ function Opinion() {
     },[])
     const dataOpinion = opin.map((item)=>{
         return (
-            <div className='opinion-container'>
+            <div className='opinion-container' key={item.id}>
                 <img src={item.img} alt={item.alt} className="opinion-images"></img>
                 <div>
                     <Link to={item.link} className="opinion-link">{item.link}</Link>
