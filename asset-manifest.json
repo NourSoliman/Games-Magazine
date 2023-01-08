@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/Games-Magazine/static/css/main.c8c79be1.css",
-    "main.js": "/Games-Magazine/static/js/main.a13360c7.js",
+    "main.js": "/Games-Magazine/static/js/main.fa2456ed.js",
     "index.html": "/Games-Magazine/index.html",
     "main.c8c79be1.css.map": "/Games-Magazine/static/css/main.c8c79be1.css.map",
-    "main.a13360c7.js.map": "/Games-Magazine/static/js/main.a13360c7.js.map"
+    "main.fa2456ed.js.map": "/Games-Magazine/static/js/main.fa2456ed.js.map"
   },
   "entrypoints": [
     "static/css/main.c8c79be1.css",
-    "static/js/main.a13360c7.js"
+    "static/js/main.fa2456ed.js"
   ]
 }
