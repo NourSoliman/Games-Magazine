@@ -1,0 +1,297 @@
+{
+    "navLinks": [
+        {   
+            "id":1, 
+            "name":"MMORPG"
+            },
+            {   
+            "id":2, 
+            "name":"RPG"
+            },
+            {   
+            "id":3, 
+            "name":"FPS"
+            },
+            {   
+            "id":4, 
+            "name":"New"
+            },
+            {   
+            "id":5, 
+            "name":"UpComingGames"
+            },
+            {   
+            "id":6, 
+            "name":"Moba"
+            },
+            {   
+            "id":7, 
+            "name":"MobileGames"
+            },
+            {   
+            "id":8, 
+            "name":"Sandbox"
+            },
+            {   
+            "id":9, 
+            "name":"Puzzlers"
+            },
+            {   
+            "id":10, 
+            "name":"adventure"
+            }
+    ],
+
+
+    "NewGames" : [
+        {
+            "id":1,
+            "img":"https://s3.gaming-cdn.com/images/products/3266/orig/throne-and-liberty-pc-game-cover.jpg?v=1666626936",
+            "alt":"Game Name",
+            "link":"Throne And Liberty",
+            "subject":"NCSOFT confirmed that it will share more details about its new MMORPG Throne and Liberty in a stream on December 27. The broadcast will be viewable on the official NCSOFT YouTube channel.  During the event, Creative Director Taekjin Kim will introduce the game's development direction,while Development Director..."
+        },
+        {
+            "id":2,
+            "img":"https://s3.gaming-cdn.com/images/products/3266/orig/throne-and-liberty-pc-game-cover.jpg?v=1666626936",
+            "alt":"Game Name",
+            "link":"Throne And Liberty",
+            "subject":"NCSOFT confirmed that it will share more details about its new MMORPG Throne and Liberty in a stream on December 27. The broadcast will be viewable on the official NCSOFT YouTube channel.  During the event, Creative Director Taekjin Kim will introduce the game's development direction,while Development Director..."
+        },
+        {
+            "id":3,
+            "img":"https://s3.gaming-cdn.com/images/products/3266/orig/throne-and-liberty-pc-game-cover.jpg?v=1666626936",
+            "alt":"Game Name",
+            "link":"Throne And Liberty",
+            "subject":"NCSOFT confirmed that it will share more details about its new MMORPG Throne and Liberty in a stream on December 27. The broadcast will be viewable on the official NCSOFT YouTube channel.  During the event, Creative Director Taekjin Kim will introduce the game's development direction,while Development Director..."
+        }
+    ],
+
+
+    "TopStory": [   
+        {
+        "id" : 1,
+        "img": "https://assets-prd.ignimgs.com/2022/03/25/throne-and-liberty-1-1648241362286.jpg",
+        "alt":"thronePic",
+        "link":"Throne&Liberty Official Trailer",
+        "subject":"[NCSOFT] Throne and Liberty - Official Trailer[NCSOFT] Throne and Liberty - Official Trailer"
+    }
+],
+
+
+    "BestGames":[
+        {
+            "id":1,
+            "img":"https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Elden_Ring_Box_art.jpg/220px-Elden_Ring_Box_art.jpg",
+            "link":"EldenRing",
+            "alt":"elden",
+            "subject":" One of the best games of the last 12 months of the best games of the last 12 months"
+        },
+        {
+            "id":2,
+            "img":"https://cdn1.epicgames.com/offer/f696430be718494fac1d6542cfb22542/EGS_MarvelsSpiderManMilesMorales_InsomniacGamesNixxesSoftware_S2_1200x1600-58989e7116de3f70a2ae6ea56ee202c6",
+            "link":"SpiderMan",
+            "alt":"Spider",
+            "subject":" One of the best games of the last 12 months of the best games of the last 12 months"
+        },
+        {
+            "id":3,
+            "img":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Cyberpunk_2077_box_art.jpg/220px-Cyberpunk_2077_box_art.jpg",
+            "link":"CyberPunk",
+            "alt":"Punk",
+            "subject":" One of the best games of the last 12 months of the best games of the last 12 months"
+        }
+    ],
+
+
+    "BestMmo": [
+        {
+            "id" : 1,
+            "img":"https://pbs.twimg.com/media/FMptpSjUYAQOtem.jpg",
+            "link":"GuildWars2",
+            "alt":"GuildWars",
+            "subject":"One of the best games of the last 12 months One of the best games of the last 12 months"
+        },
+        {
+            "id" : 2,
+            "img":"https://media.herni-kupony.cz/produkty/produktove-obrazky/blizzard/wow-product.png",
+            "link":"World Of War Craft",
+            "alt":"GuildWars",
+            "subject":"One of the best games of the last 12 months One of the best games of the last 12 months"
+        },
+        {
+            "id" : 3,
+            "img":"https://m.media-amazon.com/images/I/81+h4U-sMBL.jpg",
+            "link":"Black Desert",
+            "alt":"GuildWars",
+            "subject":"One of the best games of the last 12 months One of the best games of the last 12 months"
+        }
+    ],
+
+
+    "Sponsored":[
+        {
+            "id": 1,
+            "img":"https://images.pushsquare.com/95c8579c8aaed/best-ps4-games.large.jpg",
+            "alt":"Sponsored",
+            "link":"Sponsored Area",
+            "subject":"You Can Set Your Ad Here You Can Set Your Ad Here You Can Set Your Ad Here"
+        },
+        {
+            "id": 2,
+            "img":"https://images.pushsquare.com/95c8579c8aaed/best-ps4-games.large.jpg",
+            "alt":"Sponsored",
+            "link":"Sponsored Area",
+            "subject":"You Can Set Your Ad Here You Can Set Your Ad Here You Can Set Your Ad Here"
+        },
+        {
+            "id": 3,
+            "img":"https://images.pushsquare.com/95c8579c8aaed/best-ps4-games.large.jpg",
+            "alt":"Sponsored",
+            "link":"Sponsored Area",
+            "subject":"You Can Set Your Ad Here You Can Set Your Ad Here You Can Set Your Ad Here"
+        }
+],
+
+
+    "MoreGames":[
+        {
+        "id":1,
+        "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQGqmSq__YOyCUh47TroxIqMY5KRAHahkTY8TSIodv61_8av01WR4JdMoxw0MMzivz-1ZE&usqp=CAU",
+        "alt":"albion",
+        "link":"Albion Online",
+        "subject":"One of the best games of the last 12 months One of the best games of the last 12 months"
+        },
+        {
+        "id":2,
+        "img":"https://cdn.vox-cdn.com/thumbor/lM6S1jVTBrNEUQ0eEjf7eJBltnQ=/1400x1400/filters:format(jpeg)/cdn.vox-cdn.com/uploads/chorus_asset/file/22553557/VALORANT_YR1_KeyArt_4k_3_.jpg",
+        "alt":"Valorant",
+        "link":"Valorant",
+        "subject":"One of the best games of the last 12 months One of the best games of the last 12 months"
+        },  
+        {
+        "id":3,
+        "img":"https://upload.wikimedia.org/wikipedia/en/4/43/Counter-Strike_Source_%28box_art%29.jpg",
+        "alt":"CSGO",
+        "link":"COUNTER STRIKE",
+        "subject":"One of the best games of the last 12 months One of the best games of the last 12 months"
+        }, 
+        {
+        "id":4,
+        "img":"https://play-lh.googleusercontent.com/huX3JHSPgsYGsiscmi8cleWr8Zf0fCawbDNc7b6NYEbHlQvDRxFqStRTIKksUGDJjA",
+        "alt":"CrossFire",
+        "link":"CrossFire",
+        "subject":"One of the best games of the last 12 months One of the best games of the last 12 months"
+        },  
+        {
+        "id":5,
+        "img":"https://image.api.playstation.com/vulcan/ap/rnd/202210/2717/NJHJfoNfV53mtOf9ok4hYxNK.png",
+        "alt":"Apex Legends",
+        "link":"Apex Legends",
+        "subject":"One of the best games of the last 12 months One of the best games of the last 12 months"
+        }, 
+        {
+        "id":6,
+        "img":"https://cdn.mmohuts.com/wp-content/uploads/2015/03/Conquer_Online_604x423.jpg",
+        "alt":"Conquer Online",
+        "link":"Conquer Online",
+        "subject":"One of the best games of the last 12 months One of the best games of the last 12 months"
+        },
+        {
+        "id":7,
+        "img":"https://static-cdn.jtvnw.net/ttv-boxart/Blade%20and%20Soul.jpg",
+        "alt":"Blade&Soul",
+        "link":"Blade&Soul",
+        "subject":"One of the best games of the last 12 months One of the best games of the last 12 months"
+        },
+        {
+        "id":8,
+        "img":"https://cdn2.unrealengine.com/mobile-ua-hero-1920x1080-2e33f21500f8.jpg",
+        "alt":"Fortnite",
+        "link":"Fortnite",
+        "subject":"One of the best games of the last 12 months One of the best games of the last 12 months"
+        }, 
+        {
+        "id":9,
+        "img":"https://upload.wikimedia.org/wikipedia/en/4/45/Mount_%26_Blade_II_-_Bannerlord_cover.jpg",
+        "alt":"Mount&Blade",
+        "link":"Mount&Blade",
+        "subject":"One of the best games of the last 12 months One of the best games of the last 12 months"
+        },  
+        {
+        "id":10,
+        "img":"https://upload.wikimedia.org/wikipedia/en/c/c0/Diablo_Immortal_App_Logo.png",
+        "alt":"Diablo",
+        "link":"Diablo",
+        "subject":"One of the best games of the last 12 months One of the best games of the last 12 months"
+        }
+    ],
+    "opinions":[
+        {
+            "id":1,
+            "img":"https://m.media-amazon.com/images/M/MV5BNjQ3MjRjYzgtZDI1ZS00NmZmLWE4ZTgtNGFhNWEzYzQwNzRmXkEyXkFqcGdeQXVyMTcwODc0MDM@._V1_.jpg",
+            "link":"Throne and Liberty Could Be 2023's Big Next-Gen MMO Launch",
+            "alt":"bug bunny",
+            "by":"By NourSoliman"
+        },
+        {
+            "id":2,
+            "img":"https://m.media-amazon.com/images/M/MV5BNjQ3MjRjYzgtZDI1ZS00NmZmLWE4ZTgtNGFhNWEzYzQwNzRmXkEyXkFqcGdeQXVyMTcwODc0MDM@._V1_.jpg",
+            "link":"Throne and Liberty Could Be 2023's Big Next-Gen MMO Launch",
+            "alt":"bug bunny",
+            "by":"By NourSoliman"
+        },
+        {
+            "id":3,
+            "img":"https://m.media-amazon.com/images/M/MV5BNjQ3MjRjYzgtZDI1ZS00NmZmLWE4ZTgtNGFhNWEzYzQwNzRmXkEyXkFqcGdeQXVyMTcwODc0MDM@._V1_.jpg",
+            "link":"Throne and Liberty Could Be 2023's Big Next-Gen MMO Launch",
+            "alt":"bug bunny",
+            "by":"By NourSoliman"
+        },
+        {
+            "id":4,
+            "img":"https://m.media-amazon.com/images/M/MV5BNjQ3MjRjYzgtZDI1ZS00NmZmLWE4ZTgtNGFhNWEzYzQwNzRmXkEyXkFqcGdeQXVyMTcwODc0MDM@._V1_.jpg",
+            "link":"Throne and Liberty Could Be 2023's Big Next-Gen MMO Launch",
+            "alt":"bug bunny",
+            "by":"By NourSoliman"
+        }
+    ],
+    "LatestNews":[
+        {
+            "id":1,
+            "img":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/elden-ring-with-folding-screen-monkey.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+            "alt":"pic-alt",
+            "link":"Elden Ring Player Turns Their Character Into a Monkey"
+        },
+        {
+            "id":2,
+            "img":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/star-wars-game-massive-entertainment.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+            "alt":"pic-alt",
+            "link":"Rumor: Ubisoft’s Star Wars Game Will Feature a Full Universe Like No Man’s Sky"
+        },
+        {
+            "id":3,
+            "img":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/god-of-war-ragnarok-kratos-face-close-up.jpeg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+            "alt":"pic-alt",
+            "link":"God of War: Ragnarok Fans Are Debating How Old Kratos Is"
+        },
+        {
+            "id":4,
+            "img":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/fort_dunstad.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+            "alt":"pic-alt",
+            "link":"Funny Skyrim Clip Sees a Player Uses Bridge As Catapult to Launch Dead NPCs"
+        },
+        {
+            "id":5,
+            "img":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/call-of-duty-warzone-2-1.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+            "alt":"pic-alt",
+            "link":"Strange Call of Duty: Warzone 2 Clip Shows Helicopter Randomly Explod"
+        },
+        {
+            "id":6,
+            "img":"https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/marvel-vs-capcom-infinite-spider-man-vs-venom.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+            "alt":"pic-alt",
+            "link":"Ultimate Marvel vs. Capcom 3 Mod Adds Iconic Spider-Man Villains As Playable Characters"
+        }
+    ]
+}
