@@ -1,287 +1,622 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Roboto:wght@300;400;500;700;900&display=swap"' );
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@1,600&family=Roboto:wght@300;400;500;700;900&display=swap"');
 /*Variables*/
 $main-color: #f72210;
-$gray-color:rgb(87, 84, 84 , 0.3);
-$article-color:rgb(87, 84, 84 , 0.4);
-$bold-gray:rgb(87, 84, 84 , 0.6);
+$gray-color: rgb(87, 84, 84, 0.3);
+$article-color: rgb(87, 84, 84, 0.4);
+$bold-gray: rgb(87, 84, 84, 0.6);
+$white-color: #fff;
+$main-font: sans-serif;
 /*Mixin*/
 @mixin link-details {
-    font-family:"Roboto Condensed";
-    font-weight: 700;
-    text-decoration: none;
-    color: black !important;
+  font-family: "Roboto Condensed";
+  font-weight: 700;
+  text-decoration: none;
+  color: black !important;
 }
 @mixin container-details {
-    padding-top:15px ;
-    display: flex;
+  padding-top: 15px;
+  display: flex;
 }
 @mixin images {
-    width: 150px;
-    height: 150px;
+  width: 150px;
+  height: 150px;
+}
+@mixin hovering {
+  color: black;
 }
 
 /*Home Styles*/
 
 .header {
-    background-color: $main-color;
-    color: #fff;
-    height: 95px;
-    padding: 5px 10px ;
+  background-color: $main-color;
+  color: #fff;
+  height: 95px;
+  padding: 5px 10px;
 }
 .right {
-    display: flex;
-    justify-content: flex-end;
-    align-self: flex-end;
+  display: flex;
+  justify-content: flex-end;
+  align-self: flex-end;
 }
 .header .logo .logo-name {
-    font-family:Roboto;
-    font-weight: 900;
-    text-align: center;
-    padding-top: 12px;
+  font-family: Roboto;
+  font-weight: 900;
+  text-align: center;
+  padding-top: 12px;
 }
-.sign, .subscribe {
-    text-decoration: none;
-    padding: 5px;
-    color: white !important;
-    font-family:fantasy;
-    margin-top: 49px;
+.sign,
+.subscribe {
+  text-decoration: none;
+  padding: 5px;
+  color: white !important;
+  font-family: fantasy;
+  margin-top: 49px;
 }
 .subscribe {
-    background-color: #fff;
-    color: $main-color !important;
+  background-color: #fff;
+  color: $main-color !important;
 }
-.form-inline input[type=search] {
-    position: absolute;
-    width: 10%;
-    right: 16px;
-    top: 12px;
-    border: none;
-    transition: width 0.7s ease;
+.form-inline input[type="search"] {
+  position: absolute;
+  width: 10%;
+  right: 16px;
+  top: 12px;
+  border: none;
+  transition: width 0.7s ease;
 }
 .navbar-collapse {
-    border-bottom: 1px solid $gray-color;
-    padding-bottom: 5px;
+  border-bottom: 1px solid $gray-color;
+  padding-bottom: 5px;
 }
 .navbar-nav .nav-link::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: $main-color;
-    transform: scaleY(0);
-    z-index: -1;
-    transform-origin: 50% 0;
-    transition-duration: 0.3s;
-    transition-timing-function: ease-out;
-    transition-property: transform;
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: $main-color;
+  transform: scaleY(0);
+  z-index: -1;
+  transform-origin: 50% 0;
+  transition-duration: 0.3s;
+  transition-timing-function: ease-out;
+  transition-property: transform;
 }
 .navbar-nav .nav-link {
-    position: relative;
-    color: black !important;
-    font-weight: 500;
+  position: relative;
+  color: black !important;
+  font-weight: 500;
 }
-.navbar-nav .nav-link:hover::before , .nav-link:focus , .nav-link:active{
-    transform: scaleY(1);
-    color: white !important;
+.navbar-nav .nav-link:hover::before,
+.nav-link:focus,
+.nav-link:active {
+  transform: scaleY(1);
+  color: white !important;
 }
 .navbar-nav a:not(:last-child) {
-    border-right: 1px solid $gray-color;
+  border-right: 1px solid $gray-color;
 }
 
-
-.form-inline input[type=search]:focus {
-    width: 100%;
-    outline: none;
+.form-inline input[type="search"]:focus {
+  width: 100%;
+  outline: none;
 }
 .date {
-    margin-left: 30px;
+  margin-left: 30px;
 }
 .nav-link {
-    padding-right: -10px;
-    padding-left: -10px;
+  padding-right: -10px;
+  padding-left: -10px;
 }
 
 /*games-articles*/
 
 .new-image {
-    width: 275px;
-    height: 275px;
+  width: 275px;
+  height: 275px;
 }
 .link-name {
-    @include link-details;
-    // font-size: 20px;
-    font-size: 17px;
+  @include link-details;
+  // font-size: 20px;
+  font-size: 17px;
 }
 .header-link {
-    @include link-details;
-    font-size: 20px !important;
+  @include link-details;
+  font-size: 20px !important;
 }
-.link-name:hover {
-    border-bottom: 2px solid $main-color ;
+.link-name:hover,
+.header-link:hover {
+  border-bottom: 2px solid $main-color;
 }
 .newgames-container {
-    width: 275px;
-    text-align: justify;
-    margin-bottom: 20px;
+  width: 275px;
+  text-align: justify;
+  margin-bottom: 20px;
 }
 .newgames-p {
-    line-height: 20px;
+  line-height: 20px;
 }
 .article-header {
-    color: $article-color;
-    font-weight: bold;
-    padding: 0 8px;
-    text-align: left;
+  color: $article-color;
+  font-weight: bold;
+  padding: 0 8px;
+  text-align: left;
 }
 
 /*Top Story*/
 
-.top-image{
-    max-width: 500px;
-    height: 290px;
+.top-image {
+  max-width: 500px;
+  height: 290px;
 }
 /*BEST IMAGES*/
-.best-images {
-    @include images;
+.best-images,
+.more-images {
+  @include images;
 }
 .best-row {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 .bestGames-p {
-    line-height: 1.5rem;
-    color: $gray-color;
-    font-family: sans-serif;
-    padding-bottom: 25px;
+  line-height: 1.5rem;
+  color: $gray-color;
+  font-family: sans-serif;
+  padding-bottom: 25px;
 }
 
 /*Adver area*/
 
 .adver-content {
-    border-bottom: 1px solid $gray-color;
-    border-right:  1px solid $gray-color ;
-    border-left: 1px solid $gray-color;
-    padding: 10px;
+  border-bottom: 1px solid $gray-color;
+  border-right: 1px solid $gray-color;
+  border-left: 1px solid $gray-color;
+  padding: 10px;
 }
 /*More GAMES */
 
 .moregames-container {
-    @include container-details;
-    padding-bottom: 10px;
-    border-bottom: 1px solid $gray-color;
+  @include container-details;
+  padding-bottom: 10px;
+}
+.moregames-container:not(:last-child) {
+  border-bottom: 1px solid $gray-color;
 }
 .info {
-    padding: 5px;
+  padding: 5px;
 }
-.more-images {
-    @include images;
-}
+// .more-images {
+//     @include images;
+// }
 
 /*Opinion*/
 
 .opinion-images {
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
 }
 .opinion-container {
-    display: flex;
-    gap: 3px;
-    padding: 10px;
+  display: flex;
+  gap: 3px;
+  padding: 10px;
 }
 .writer-name {
-    padding: 3px;
-    color: $bold-gray;
+  padding: 3px;
+  color: $bold-gray;
 }
 .opinion-link {
-    @include link-details;
-    font-size: 15px;
+  @include link-details;
+  font-size: 15px;
 }
 .opinion-link:hover {
-    color: $main-color !important;
+  color: $main-color !important;
 }
 
 /*Latest*/
 .latest-container {
-    @include container-details;
-    padding: 10px;
-    font-family: sans-serif;
-    gap: 9px;
+  @include container-details;
+  padding: 10px;
+  font-family: sans-serif;
+  gap: 9px;
 }
 .latest-container:not(:last-child) {
-    border-bottom: 1px solid $gray-color;
+  border-bottom: 1px solid $gray-color;
 }
 .latest-images {
-    @include images;
+  @include images;
 }
+/*Magazine*/
+.row-container {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.magazine-header {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid $gray-color;
+}
+.header-span {
+  position: relative;
+  background-color: $main-color;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  top: 8px;
+  margin-right: 5px;
+}
+.header-span::before {
+  content: "N";
+  position: absolute;
+  font-family: $main-font;
+  text-align: center;
+  right: 6px;
+  font-weight: bold;
+  color: white;
+}
+.cover-span {
+  background-color: $main-color;
+  padding: 2px;
+  color: $white-color;
+  font-family: sans-serif;
+  font-weight: 700;
+}
+.magazine-info {
+  padding-top: 10px;
+}
+.span-title {
+  font-family: $main-font;
+  color: $main-color;
+  font-weight: bold;
+  padding-left: 4px;
+}
+.images-link {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  font-weight: bold;
+  text-transform: uppercase;
+  background-color: rgba(255, 255, 255, 0.8);
+  color: $main-color !important;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-family: $main-font;
+  color: white;
+}
+.bestinfo-container {
+  position: relative;
+}
+/*Best Images End*/
+/*Start Side*/
+.side-image {
+  width: 350px;
+  height: 250px;
+}
+.side-container {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.side-row {
+  margin: 5px;
+}
+/*End Side*/
+/*Mmo start*/
+.mmo-container {
+  border-top: 1px solid $gray-color;
+}
+.mmo-container h3 {
+  color: $main-color;
+  text-transform: uppercase;
+}
+.mmoRight-images {
+  width: 100px;
+  height: 100px;
+  padding-bottom: 10px;
+}
+.mmoLeft-images {
+  width: 400px;
+  height: 250px;
+}
+/*Mmo End*/
+/*Sub Start*/
+.sub-container {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+.sub-image1 {
+  width: 200px;
+  height: 200px;
+  position: absolute;
+  left: 71px;
+  top: 20px;
+}
+.sub-image2 {
+  width: 200px;
+  height: 200px;
+}
+.subImages-container {
+  position: relative;
+}
+.sub-title {
+  @include link-details;
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+.sub-ino p {
+  margin: 0;
+  font-family: $main-font;
+  font-weight: 500;
+}
+.sub-button {
+  padding-top: 20px;
+}
+.sub-link {
+  border: none;
+  background-color: $main-color;
+  color: white;
+  font-family: $main-font;
+  padding: 10px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.sub-link:hover {
+  color: white !important;
+}
+.sub-row {
+  background-color: rgba(128, 128, 128, 0.2);
+  padding: 20px 0 45px;
+}
+.subscribe-container {
+  display: flex;
+}
+/*Sub End*/
+/*News Start*/
+.news-image {
+  width: 150px;
+  height: 300px;
+}
+.news-container {
+  display: flex;
+}
+.news-info {
+  padding: 13px;
+}
+/*News End*/
+/*Start footer*/
+.footer-container {
+  border-top: 1px solid $gray-color;
+}
+.footer-Logo {
+  color: $main-color;
+  font-family: Roboto;
+  font-weight: 900;
+  font-size: 30px;
+}
+.footer-copy {
+  font-family: Roboto;
+  color: #666;
+  padding-top: 13px;
+}
+.footer-icons {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  padding-top: 10px;
+}
+.footer-icons .footer-icon {
+  padding: 5px;
+  color: #666;
+}
+.footer-icon:hover,
+.footer-icon:focus,
+.footer-icon:active {
+  transform: scale(1, 2);
+  color: $main-color !important;
+}
+/*End Footer*/
+/*Edition start*/
+.edition-container {
+  padding: 0 10px;
+  display: inline;
+  list-style: none;
+  color: $bold-gray;
+}
+.edition-container:hover {
+  @include hovering;
+}
+.edition-container:not(:last-child) {
+  border-right: 1px solid $gray-color;
+}
+.editions-container {
+  display: flex;
+  border-top: 1px solid $gray-color;
+  padding-top: 6px;
+}
+/*Edition End*/
+/*Footerinfo Start*/
+.footerInfo-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.info-container {
+  list-style: none;
+  color: #666;
+  padding-right: 4px;
+  padding-left: 0;
+}
+.info-container:hover {
+  @include hovering;
+}
+.info-container:not(:last-child) {
+  border-right: 1px solid $gray-color;
+}
+.info-container li {
+  padding-left: 10px;
+}
+/*Footerinfo End*/
 
 /*Media Query*/
 
-@media only screen and (max-width:992px) {
-    /*Header*/
-    .header {
-        height: 50px;
-    }
-    .header .logo .logo-name{
-        font-size: 12px;
-    }
-    // .header-toggle {
-        // position: absolute;
-        // bottom: 20px;
-        // right: 2px;
-        // left:-10px;
-    // }
-    .right {
-        position: absolute;
-        right: 75px;
-        display: inline;
-        font-size: 10px;
-        top:15px;
-    }
-    .nav-link {
-        padding: 0;
-    }
-    .left {
-        text-align: right;
-        position: absolute;
-        right: 0px;
-        top: 0px;
-    }
-    .logo-name {
-        position: absolute;
-        left: 0;
-        font-size: 20px;
-    }
-    .city {
-        display: none;
-    }
-    .article-header {
-        padding: 0;
-        font-size: 10px;
-        margin-bottom: 0 !important;
-    }
-    /*Games News*/
-    .newgames-container , .topStory-container , .bestgames-container , .bestmmo-container{
-        margin: 15px;
-    }
-    /*Top Story*/
-    .top-image {
-        width: 270px;
-        height: auto;
-    }
-        /*Images start*/
-        .new-image   {
-            max-width: 100%;
-            height: auto;
-        }
-        .best-images {
-        width: 250px;
-        height: auto;
-        }
-        .more-images , .latest-images{
-            height: auto;
-        }
-        /*Images End*/
+@media only screen and (max-width: 992px)  {
+  .root {
+    // margin-right: -15px !important;
+    // margin-left: -15px !important;
+    overflow-x: hidden !important;
+  }
+  /*Header*/
+  .header {
+    height: 50px;
+    justify-content: flex-start;
+    margin-right: -25px;
+  }
+  .header .logo .logo-name {
+    position: absolute;
+    top: 10px;
+    left: 103px;
+    font-size: 13px;
+  }
+  .right {
+    display: inline;
+    padding-bottom: 23px;
+  }
+  .navbar-toggler-icon {
+  position: absolute;
+  top: -35px;
+  right: -10px;
+  // left:-10px;
+  border: none!important;
+  }
+  .header-toggle.navbar-toggler{
+    border: none;
+  }
+  .right {
+    position: absolute;
+    top: 18px;
+    right: -29px;
+  }
+  .weather , .weather-icon , .city {
+    display: none;
+  }
+  .date {
+    position: absolute;
+    left: -13px;
+    top: 16px;
+  }
+  .sign, .subscribe {
+    padding: 0!important;
+    font-size: 10px;
+  }
+  // .logo-name {
+  //   position: absolute;
+  //   left: 0;
+  //   font-size: 20px;
+  // }
+  .city {
+    display: none;
+  }
+  .article-header {
+    padding: 0;
+    font-size: 10px;
+    margin: 15px;
+    margin-bottom: 0 !important;
+  }
+  /*Games News*/
+  .newgames-container,
+  .topStory-container,
+  .bestgames-container,
+  .bestmmo-container {
+    // margin: 15px;
+  }
+  /*                       Games News End                 */
+/*                  New Games Start            */
+.newgames-container {
+  width: 100% !important;
+
+}
+/*                  New Games End               */ 
+  /*More games Start*/
+  .moregames-container {
+    margin: 5px;
+  }
+  /*More Games End*/
+
+  /*Top Story*/
+  .top-image {
+    width: 100%;
+    height: auto;
+  }
+  .link-name{
+    font-size:10px ;
+  }
+  .mini-info {
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+  /*Images start*/
+  .new-image {
+    width: 100%;
+    height: auto;
+    vertical-align: middle
+  }
+  .best-images {
+    width: 50%;
+    height: auto;
+    vertical-align: middle;
+    // margin: 0 80px;
+  }
+  .more-images,
+  .latest-images {
+    height: auto;
+  }
+  .bestImages-row ,.Magazine-row , .side-row  , .mmo-row ,  .fps-row , .rpg-row , .mobile-row{
+    margin: 10px !important;
+  }
+
+  /*Images End*/
+  /*Side Show Start*/
+  .side-image {
+    max-width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  /*Side show End*/
+  /*Mmo start*/
+  .mmoLeft-images {
+    max-width: 100%;
+  }
+  .mmo-container h3 {
+    margin: 5px;
+  }
+  /*Mmo End*/
+  /*subscribe start*/
+  .subImages-container {
+    margin: 10px;
+  }
+  .sub-info {
+    padding-top: 10px;
+  }
+  .sub-row {
+    max-width: 100%;
+  }
+  /*subscribe end*/
+}
+
+@media only screen and (max-width:992px) and (min-width:768px) {
+  .main-left-column , .main-middle-column , .main-right-column {
+    width: 50%;
+    margin: 0 auto;
+    margin-bottom: 15px;
+  }
+  .header .logo .logo-name {
+    left: 210px;
+  }
 }

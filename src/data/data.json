@@ -293,5 +293,379 @@
             "alt":"pic-alt",
             "link":"Ultimate Marvel vs. Capcom 3 Mod Adds Iconic Spider-Man Villains As Playable Characters"
         }
+    ],
+    "Magazine":[
+        {
+            "id":1,
+            "img":"https://images.purexbox.com/476a448ee2a61/best-xbox-rpgs.large.jpg",
+            "alt":"RPG",
+            "link":"A role-playing game (RPG) is a game in which each participant assumes the role of a character"
+        },
+        {
+            "id":2,
+            "img":"https://beebom.com/wp-content/uploads/2018/11/Best-mmorpg-featured.jpg",
+            "alt":"MMORPG",
+            "link":"MMORPG means massively multiplayer online role-playing games, and it's a type of video "
+        },
+        {
+            "id":3,
+            "img":"https://static1.anpoimages.com/wordpress/wp-content/uploads/2022/09/Best-FPS-hero.jpg",
+            "alt":"FPS",
+            "link":"First-person shooter (FPS) is a sub-genre of shooter video games centered "
+        },
+        {
+            "id":4,
+            "img":"https://i0.wp.com/blog.indiegala.com/wp-content/uploads/2021/12/Top-Upcoming-PC-Games-2022.png?fit=940%2C788&ssl=1",
+            "alt":"New Games",
+            "link":"new games that recently came out 2022"
+        },
+        {
+            "id":5,
+            "img":"https://www.gameinformer.com/sites/default/files/styles/full/public/2022/05/16/4038a2d2/videogamereleases2023.jpg",
+            "alt":"UpcomingGames",
+            "link":"Upcoming games 2023: this year's most anticipated releases"
+        },
+        {
+            "id":6,
+            "img":"https://earlygame.com/uploads/images/_body/Pubg-mobile-4.jpg",
+            "alt":"MobileGames",
+            "link":"The top grossing mobile game worldwide for January 2022 was PUBG Mobile from Tencent "
+        },
+        {
+            "id":7,
+            "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sandbox-1576536034.jpg",
+            "alt":"SandBox",
+            "link":"a sandbox gameVideo games played in sandbox mode"
+        },
+        {
+            "id":8,
+            "img":"https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/adgames-1576082687.jpg",
+            "alt":"AdventureGames",
+            "link":"Adventure games focus on puzzle solving within a narrative framework"
+        }
+    ],
+    "BestImages":[
+        {
+            "id":1,
+            "img":"https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "alt":"Picture",
+            "title":"Most Popular Online Games of 2022",
+            "subject":"Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
+            "link":"Mmo"
+        },
+        {
+            "id":2,
+            "img":"https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "alt":"Picture",
+            "title":"Most Popular Online Games of 2022",
+            "subject":"Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
+            "link":"Fps"
+        },
+        {
+            "id":3,
+            "img":"https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "alt":"Picture",
+            "title":"Most Popular Online Games of 2022",
+            "subject":"Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
+            "link":"RGP"
+        },
+        {
+            "id":4,
+            "img":"https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "alt":"Picture",
+            "title":"Most Popular Online Games of 2022",
+            "subject":"Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
+            "link":"Mobile"
+        },
+        {
+            "id":5,
+            "img":"https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "alt":"Picture",
+            "title":"Most Popular Online Games of 2022",
+            "subject":"Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
+            "link":"SandBox"
+        },
+        {
+            "id":6,
+            "img":"https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "alt":"Picture",
+            "title":"Most Popular Online Games of 2022",
+            "subject":"Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
+            "link":"New"
+        },
+        {
+            "id":7,
+            "img":"https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "alt":"Picture",
+            "title":"Most Popular Online Games of 2022",
+            "subject":"Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
+            "link":"UpComing"
+        },
+        {
+            "id":8,
+            "img":"https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "alt":"Picture",
+            "title":"Most Popular Online Games of 2022",
+            "subject":"Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
+            "link":"Adventure"
+        }
+    ],
+    "SideShow":[
+        {
+            "id":1,
+            "img":"https://cdn.mos.cms.futurecdn.net/YHdtAs36hSJUL56Lq2nxFi.jpg",
+            "alt":"valorant pic",
+            "link":"One Of The Best FPS Games"
+        },
+        {
+            "id":2,
+            "img":"https://wallpaperaccess.com/full/2632412.jpg",
+            "alt":"albion pic",
+            "link":"One Of The Best sandbox Games"
+        },
+        {
+            "id":3,
+            "img":"https://mmorpg.gg/wp-content/uploads/2022/06/Picture-11.png.webp",
+            "alt":"throne-pic",
+            "link":"One Of The Best MMo Games"
+        }
+    ],
+    "MmoLeft":[
+        {
+            "id" : 1,
+            "img":"https://pbs.twimg.com/media/FMptpSjUYAQOtem.jpg",
+            "alt":"GuildWars",
+            "link":"One of the best games of the last 12 months"
+        },
+        {
+            "id" : 2,
+            "img":"https://media.herni-kupony.cz/produkty/produktove-obrazky/blizzard/wow-product.png",
+            "alt":"GuildWars",
+            "link":"One of the best games of the last 12 months"
+        }
+    ],
+    "MmoRight":[
+        {
+            "id" : 3,
+            "img":"https://m.media-amazon.com/images/I/81+h4U-sMBL.jpg",
+            "alt":"GuildWars",
+            "link":"One of the best games of the last 12 months"
+        },
+        {
+            "id":4,
+            "img":"https://static-cdn.jtvnw.net/ttv-boxart/Blade%20and%20Soul.jpg",
+            "alt":"blade-pic",
+            "link":"One of the best games of the last 12 months"
+        },
+        {
+            "id":5,
+            "img":"https://upload.wikimedia.org/wikipedia/en/c/c0/Diablo_Immortal_App_Logo.png",
+            "alt":"diablo",
+            "link":"One of the best games of the last 12 months"
+        }
+    ],
+    "Fpsleft":[
+        {
+            "id":1,
+            "img":"https://news.xbox.com/en-us/wp-content/uploads/sites/2/2020/06/Destiny2_Hero_Art.jpg",
+            "link":"One of the best games of the last 12 months",
+            "alt":"disteny"
+        },
+        {
+            "id":2,
+            "img":"https://gmedia.playstation.com/is/image/SIEPDC/apex-legends-clubs-screen-01-ps4-en-19jan21?$facebook$",
+            "link":"One of the best games of the last 12 months",
+            "alt":"Apex"
+        }
+    ],
+    "FpsRight":[
+        {
+            "id":1,
+            "img":"https://cdn1.dotesports.com/wp-content/uploads/2021/02/23172633/csgo.jpg",
+            "link":"One of the best games of the last 12 months",
+            "alt":"CSGO"
+        },
+        {
+            "id":2,
+            "img":"https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt1d72b5b9518e767b/6348b9a2b3f39b38fccfbac4/VALORANT_2022_E5-3_PlayVALORANT_ContentStackThumbnail_1200x625_MB01_opt.jpg",
+            "link":"One of the best games of the last 12 months",
+            "alt":"valorant"
+        },
+        {
+            "id":3,
+            "img":"https://assets-prd.ignimgs.com/2022/06/23/overwatch-2-button-fin-1656022954568.jpg",
+            "link":"One of the best games of the last 12 months",
+            "alt":"overwatch2"
+        }
+    ],
+    "RpgLeft":[
+        {
+            "id":1,
+            "img":"https://image.api.playstation.com/vulcan/img/rnd/202201/2122/J7oJE8POxtzUdpfGRKTeErQt.jpg",
+            "alt":"elden",
+            "link":"One of the best games of the last 12 months"
+        },
+        {
+            "id":2,
+            "img":"https://s3.amazonaws.com/prod-media.gameinformer.com/styles/full/s3/2019/01/18/b3a5e939/witcher3.jpg",
+            "alt":"witcher",
+            "link":"One of the best games of the last 12 months"
+        }
+    ],
+    "RpgRight":[
+        {
+            "id":1,
+            "img":"https://assets1.ignimgs.com/2019/11/11/star-wars-jedi-fallen-order---button-fin-2-1573507204864.jpg",
+            "link":"One of the best games of the last 12 months",
+            "alt":"StarWars"
+        },
+        {
+            "id":2,
+            "img":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Cyberpunk_2077_box_art.jpg/220px-Cyberpunk_2077_box_art.jpg",
+            "link":"One of the best games of the last 12 months",
+            "alt":"Cyberpunk"
+        },
+        {
+            "id":3,
+            "img":"https://upload.wikimedia.org/wikipedia/en/4/45/Mount_%26_Blade_II_-_Bannerlord_cover.jpg",
+            "link":"One of the best games of the last 12 months",
+            "alt":"mount&blade"
+        }
+    ],
+    "MobileLeft":[
+        {
+            "id":1,
+            "img":"https://i0.wp.com/maktaba-amma.com/wp-content/uploads/2021/01/Call-of-Duty-Mobile.jpg?fit=1920%2C1080&ssl=1",
+            "alt":"COD",
+            "link":"One of the best games of the last 12 months"
+        },
+        {
+            "id":2,
+            "img":"https://metro.co.uk/wp-content/uploads/2020/12/gi-key-art-75ca.jpg?quality=90&strip=all",
+            "alt":"genshin",
+            "link":"One of the best games of the last 12 months"
+        }
+    ],
+    "MobileRight":[
+        {
+            "id":1,
+            "img":"https://mobilemodegaming.com/wp-content/uploads/2019/06/Blade_and_Soul_Mobile_2_604x423.jpg",
+            "alt":"blade and soul",
+            "link":"One of the best games of the last 12 months"
+        },
+        {
+            "id":2,
+            "img":"https://play-lh.googleusercontent.com/JRd05pyBH41qjgsJuWduRJpDeZG0Hnb0yjf2nWqO7VaGKL10-G5UIygxED-WNOc3pg",
+            "alt":"pubg",
+            "link":"One of the best games of the last 12 months"
+        },
+        {
+            "id":3,
+            "img":"https://images.ctfassets.net/vfkpgemp7ek3/3528761256/2040d228c4587a8937bf3e8a0effd77b/among-us-mobile-surpasses-85-million-downloads.jpg",
+            "alt":"among us",
+            "link":"One of the best games of the last 12 months"
+        }
+    ],
+    "Subscribe":[
+        {
+            "id":1,
+            "img1":"https://covers.magazinecloner.com/covers/168544.jpg",
+            "img2":"https://covers.magazinecloner.com/covers/167237.jpg",
+            "title":"In-depth Stories You Don't See Elsewhere About Topics You Want to Read!",
+            "subject1":"All Access + Weekly Delivery.",
+            "subject2":"Choose A Membership That's Perfect for You!"
+        }
+    ],
+    "NewsLetter":[
+        {
+            "id":1,
+            "img":"https://delante.co/wp-content/uploads/2019/12/newsletter-definicja.png",
+            "title":"News Letter",
+            "subject":"In-depth Stories You Don't See Elsewhere About Topics You Want to Read."
+        }
+    ],
+    "FirstFooter":[
+        {
+            "id":1,
+            "logo":"GamesMagazine",
+            "copyRight":"© 2023 GamesMagazine",
+            "link":"https://www.facebook.com/profile.php?id=100085587985479"
+        }
+    ],
+    "Editions":[
+        {
+            "id":1,
+            "name":"U.S. Edition"
+        },
+        {
+            "id":2,
+            "name":"日本"
+        },
+        {
+            "id":3,
+            "name":"Pakistan"
+        },
+        {
+            "id":4,
+            "name":"Polska"
+        }
+    ],
+    "FooterInfo":[
+        {
+            "id":1,
+            "name":"About Us"
+        },
+        {
+            "id":2,
+            "name":"Corrections"
+        },
+        {
+            "id":3,
+            "name":"Contact Us"
+        },
+        {
+            "id":4,
+            "name":"Editorial Guidelines"
+        },
+        {
+            "id":5,
+            "name":"Advertise"
+        },
+        {
+            "id":6,
+            "name":"Copyright"
+        },
+        {
+            "id":7,
+            "name":"Terms & Conditions"
+        },
+        {
+            "id":8,
+            "name":"Privacy Policy"
+        },
+        {
+            "id":9,
+            "name":"Cookie"
+        },
+        {
+            "id":10,
+            "name":"Policy"
+        },
+        {
+            "id":11,
+            "name":"Terms of Sale"
+        },
+        {
+            "id":12,
+            "name":"Archive"
+        },
+        {
+            "id":13,
+            "name":"Announcements"
+        },
+        {
+            "id":14,
+            "name":"Consent preferences"
+        }
     ]
 }

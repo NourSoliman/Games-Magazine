@@ -17,10 +17,10 @@ const Header = () => {
         )
     })
     return (
-        <Container fluid>
+        <Container fluid >
             <Row className='header'>
                 <Col xs={2} lg={3} className="left">
-                    <span><BsFillCloudSunFill /></span>
+                    <span className='weather-icon'><BsFillCloudSunFill /></span>
                     <span className='weather'> 15° <span className='city'>Cairo-EG</span></span>
                     <p className='date'>{date}</p>
                 </Col>
