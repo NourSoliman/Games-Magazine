@@ -11,7 +11,7 @@ const FirstFooter = () => {
     },[])
     const FirstFooter = footer.map((item)=>{
         return (
-            <div className="footer-container">
+            <div className="footer-container" key={item.id}>
             <Row>
                 <Col md={3} className="footer-Logo">
                     {item.logo}

@@ -10,7 +10,7 @@ const FooterInfo = () => {
     },[])
     const FooterInfo = info.map((item)=>{
         return (
-            <ul className="info-container">
+            <ul className="info-container" key={item.id}>
                 <li><Nav.Link as={Link}>{item.name}</Nav.Link></li>
             </ul>
         )

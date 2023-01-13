@@ -425,7 +425,7 @@
         },
         {
             "id":3,
-            "img":"https://mmorpg.gg/wp-content/uploads/2022/06/Picture-11.png.webp",
+            "img":"https://apyre.fr/wp-content/uploads/2022/10/throne-and-liberty-1-minute-of-action-gameplay-4k60fps-0-30-screenshot-1024x576.jpg",
             "alt":"throne-pic",
             "link":"One Of The Best MMo Games"
         }
@@ -433,27 +433,27 @@
     "MmoLeft":[
         {
             "id" : 1,
-            "img":"https://pbs.twimg.com/media/FMptpSjUYAQOtem.jpg",
+            "img":"https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/wallpapers/DragonBash-1280x720.jpg",
             "alt":"GuildWars",
             "link":"One of the best games of the last 12 months"
         },
         {
             "id" : 2,
-            "img":"https://media.herni-kupony.cz/produkty/produktove-obrazky/blizzard/wow-product.png",
-            "alt":"GuildWars",
+            "img":"https://i.ytimg.com/vi/s4gBChg6AII/maxresdefault.jpg",
+            "alt":"WOW",
             "link":"One of the best games of the last 12 months"
         }
     ],
     "MmoRight":[
         {
             "id" : 3,
-            "img":"https://m.media-amazon.com/images/I/81+h4U-sMBL.jpg",
-            "alt":"GuildWars",
+            "img":"https://cdn.akamai.steamstatic.com/steam/apps/582660/ss_8899e09c05645aa8730b57bc0412c07476312787.1920x1080.jpg?t=1671510670",
+            "alt":"blackDesert",
             "link":"One of the best games of the last 12 months"
         },
         {
             "id":4,
-            "img":"https://static-cdn.jtvnw.net/ttv-boxart/Blade%20and%20Soul.jpg",
+            "img":"https://koreajoongangdaily.joins.com/data/photo/2021/08/30/b1bc82be-4a81-47aa-b04f-37a25d7fbec2.jpg",
             "alt":"blade-pic",
             "link":"One of the best games of the last 12 months"
         },
@@ -515,13 +515,13 @@
     "RpgRight":[
         {
             "id":1,
-            "img":"https://assets1.ignimgs.com/2019/11/11/star-wars-jedi-fallen-order---button-fin-2-1573507204864.jpg",
+            "img":"https://venturebeat.com/wp-content/uploads/2021/01/republic-commando.jpg?fit=3840%2C2160&strip=all",
             "link":"One of the best games of the last 12 months",
             "alt":"StarWars"
         },
         {
             "id":2,
-            "img":"https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Cyberpunk_2077_box_art.jpg/220px-Cyberpunk_2077_box_art.jpg",
+            "img":"https://www.cyberpunk.net/build/images/home3/screen-image-mercenary-e79283ec.jpg",
             "link":"One of the best games of the last 12 months",
             "alt":"Cyberpunk"
         },

@@ -9,7 +9,7 @@ const NewsLetter = () => {
     },[])
     const subRight = sub.map((item)=>{
         return (
-            <div className="news-container">
+            <div className="news-container" key={item.id}>
               <div>
                 <img src={item.img} alt={item.title} className="news-image"/>
               </div>

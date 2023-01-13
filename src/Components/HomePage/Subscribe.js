@@ -11,7 +11,7 @@ const Subscribe =() => {
     },[])
     const SubRight = sub.map((item)=>{
         return (
-            <div className="sub-container">
+            <div className="sub-container" key={item.id}>
                 <Row>
                     <Col lg={8}>
                         <Row className="sub-row">

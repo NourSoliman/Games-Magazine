@@ -11,7 +11,7 @@ const  Editions = () => {
   },[])
   const editions = edition.map((item)=>{
     return (
-      <ul className="edition-container">
+      <ul className="edition-container" key={item.id}>
         <li><Nav.Link as={Link} to="/" key={item.id}>{item.name}</Nav.Link></li>
       </ul>
     )

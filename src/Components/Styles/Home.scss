@@ -18,7 +18,7 @@ $main-font: sans-serif;
   display: flex;
 }
 @mixin images {
-  width: 150px;
+  width: 100%;
   height: 150px;
 }
 @mixin hovering {
@@ -113,8 +113,8 @@ $main-font: sans-serif;
 /*games-articles*/
 
 .new-image {
-  width: 275px;
-  height: 275px;
+  width: 100%;
+  height: auto;
 }
 .link-name {
   @include link-details;
@@ -130,7 +130,7 @@ $main-font: sans-serif;
   border-bottom: 2px solid $main-color;
 }
 .newgames-container {
-  width: 275px;
+  width: 100%;
   text-align: justify;
   margin-bottom: 20px;
 }
@@ -147,7 +147,7 @@ $main-font: sans-serif;
 /*Top Story*/
 
 .top-image {
-  max-width: 500px;
+  width: 100%;
   height: 290px;
 }
 /*BEST IMAGES*/
@@ -225,7 +225,7 @@ $main-font: sans-serif;
   border-bottom: 1px solid $gray-color;
 }
 .latest-images {
-  @include images;
+  width: 50%;
 }
 /*Magazine*/
 .row-container {
@@ -233,6 +233,9 @@ $main-font: sans-serif;
   flex-wrap: wrap;
   padding-top: 10px;
   padding-bottom: 10px;
+}
+.Magazine-section {
+  width: 100%;
 }
 .magazine-header {
   display: flex;
@@ -295,8 +298,9 @@ $main-font: sans-serif;
 /*Best Images End*/
 /*Start Side*/
 .side-image {
-  width: 350px;
-  height: 250px;
+  width: 100%;
+  height: auto;
+
 }
 .side-container {
   padding-top: 5px;
@@ -315,13 +319,13 @@ $main-font: sans-serif;
   text-transform: uppercase;
 }
 .mmoRight-images {
-  width: 100px;
-  height: 100px;
+  width: 25%;
+  height: auto;
   padding-bottom: 10px;
 }
 .mmoLeft-images {
-  width: 400px;
-  height: 250px;
+  width: 100%;
+  height: auto;
 }
 /*Mmo End*/
 /*Sub Start*/
@@ -379,14 +383,17 @@ $main-font: sans-serif;
 /*Sub End*/
 /*News Start*/
 .news-image {
-  width: 150px;
-  height: 300px;
+  width: 100%;
+  height: auto;
 }
 .news-container {
   display: flex;
 }
 .news-info {
   padding: 13px;
+  border-right: 1px solid $gray-color;
+  border-bottom: 1px solid $gray-color;
+  border-top: 1px solid $gray-color;
 }
 /*News End*/
 /*Start footer*/
@@ -566,6 +573,9 @@ $main-font: sans-serif;
     width: 100%;
     height: auto;
     vertical-align: middle
+  }
+  .bestImages-container {
+    width: 100%;
   }
   .best-images {
     width: 50%;

@@ -29,7 +29,7 @@ function BestImages() {
         )
     }) 
   return (
-    <div>
+    <div className="bestImages-container">
         <div className="magazine-header">
             <span className="header-span"></span>
             <h3 className="magazine-header1">Best Images</h3>
