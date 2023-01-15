@@ -136,6 +136,7 @@ $main-font: sans-serif;
 }
 .newgames-p {
   line-height: 20px;
+  color: #666;
 }
 .article-header {
   color: $article-color;
@@ -161,7 +162,7 @@ $main-font: sans-serif;
 }
 .bestGames-p {
   line-height: 1.5rem;
-  color: $gray-color;
+  color: gray;
   font-family: sans-serif;
   padding-bottom: 25px;
 }
@@ -318,6 +319,11 @@ $main-font: sans-serif;
   color: $main-color;
   text-transform: uppercase;
 }
+.section-title {
+  color: $main-color;
+  text-transform: uppercase;
+  margin: 5px;
+}
 .mmoRight-images {
   width: 25%;
   height: auto;
@@ -472,26 +478,25 @@ $main-font: sans-serif;
 /*Media Query*/
 
 @media only screen and (max-width: 992px)  {
-  .root {
-    // margin-right: -15px !important;
-    // margin-left: -15px !important;
-    overflow-x: hidden !important;
-  }
   /*Header*/
   .header {
     height: 50px;
     justify-content: flex-start;
     margin-right: -25px;
+    position: relative;
   }
   .header .logo .logo-name {
     position: absolute;
-    top: 10px;
-    left: 103px;
+    top: 15px;
+    left: 86px;
     font-size: 13px;
   }
   .right {
     display: inline;
-    padding-bottom: 23px;
+    padding-bottom: 10px;
+    max-width: 50%;
+    display: inline;
+    padding-bottom: 16px;
   }
   .navbar-toggler-icon {
   position: absolute;
@@ -503,28 +508,18 @@ $main-font: sans-serif;
   .header-toggle.navbar-toggler{
     border: none;
   }
-  .right {
-    position: absolute;
-    top: 18px;
-    right: -29px;
-  }
   .weather , .weather-icon , .city {
     display: none;
   }
   .date {
     position: absolute;
     left: -13px;
-    top: 16px;
+    top: 5px;
   }
   .sign, .subscribe {
     padding: 0!important;
     font-size: 10px;
   }
-  // .logo-name {
-  //   position: absolute;
-  //   left: 0;
-  //   font-size: 20px;
-  // }
   .city {
     display: none;
   }
@@ -581,7 +576,9 @@ $main-font: sans-serif;
     width: 50%;
     height: auto;
     vertical-align: middle;
-    // margin: 0 80px;
+    left: 50%;
+    transform: translateX(-50%);
+    position: relative;
   }
   .more-images,
   .latest-images {

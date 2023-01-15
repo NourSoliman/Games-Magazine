@@ -10,7 +10,7 @@ function BestImages() {
     },[])
     const imagesPart = images.map((item)=>{
         return (
-            <Col className="row-container" key={item.id} lg={3} md={6}>
+            <Col className="row-container" key={item.id} lg={3} md={6} data-aos="zoom-out-left" data-aos-duration="1000">
             <div className="bestinfo-container">
                 <div >
                     <Link to={item.link} className="images-link">{item.link}</Link>

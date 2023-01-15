@@ -10,7 +10,7 @@ function BestMMO() {
     },[])
     const bestMmorpg = mmo.map((item)=>{
         return (
-            <Col sm={4} xs={12} key={item.id}>
+            <Col sm={4} xs={12} key={item.id} data-aos="fade-up" data-aos-duration="1000">
             <div className='bestmmo-container' key={item.id}>
                 <img  src={item.img} alt={item.alt} className="best-images"/>
                 <div>

@@ -10,7 +10,7 @@ const Slider = () => {
   },[])
   const SideShowPart = side.map((item)=>{
     return (
-      <Col key={item.id} md={4}>
+      <Col key={item.id} md={4} data-aos="flip-right" data-aos-duration="2000">
       <div className="side-container" key={item.id}>
         <img  src={item.img} alt={item.alt} className="side-image"/>
         <div>

@@ -11,7 +11,7 @@ function Mmo() {
     },[])
     const mmoLeft = mmo.map((item)=>{
         return (
-            <Col md={4} key={item.id}>
+            <Col md={4} key={item.id} data-aos="slide-right" data-aos-duration="2000">
                 <div key={item.id} >
                     <img src={item.img} alt={item.alt} className="mmoLeft-images"/>
                 </div>
@@ -24,7 +24,7 @@ function Mmo() {
     return (
     <div>
         <div className="mmo-container">
-            <h3>Mmo</h3>
+            <h3 className="section-title">Mmo</h3>
         </div>
         <Row className="mmo-row">
             {mmoLeft}

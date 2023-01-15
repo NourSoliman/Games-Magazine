@@ -11,7 +11,7 @@ const  FpsLeft = ()=> {
     },[])
     const fpsLeft = fps.map((item)=>{
         return (
-            <Col md={4} key={item.id}>
+            <Col md={4} key={item.id} data-aos="slide-left" >
             <div key={item.id}>
                 <img src={item.img} alt={item.alt} className="mmoLeft-images"/>
                 <div>
@@ -24,7 +24,7 @@ const  FpsLeft = ()=> {
     return (
     <div className="mmo-container">
         <div>
-            <h3>FPS</h3>
+            <h3 className="section-title">FPS</h3>
         </div>
         <Row className="fps-row">
             {fpsLeft}
