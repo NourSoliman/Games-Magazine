@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Row, Col } from "react-bootstrap";
 import GamesNews from "./GamesNews";
 import Advertisement from "./Advertisement";
@@ -12,9 +12,9 @@ import Aos from 'aos';
 import "aos/dist/aos.css"
 import BestMMO from "./BestMMO";
 const Home = () => {
-        Aos.init(()=>{
-            Aos.init({duration:4000})
-        })
+    Aos.init(() => {
+        Aos.init({ duration: 4000 })
+    })
     return (
         <Row>
             <Col lg={3} md={5} xs={12} className="main-left-column" >

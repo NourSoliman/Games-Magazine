@@ -3,20 +3,20 @@ import { Link } from "react-router-dom";
 import data from "../../data/data.json";
 import { Row, Col } from "react-bootstrap";
 const Slider = () => {
-  const [side , setSide ] = useState([])
-  useEffect(()=>{
+  const [side, setSide] = useState([])
+  useEffect(() => {
     const sideShow = data.SideShow
     setSide(sideShow)
-  },[])
-  const SideShowPart = side.map((item)=>{
+  }, [])
+  const SideShowPart = side.map((item) => {
     return (
       <Col key={item.id} md={4} data-aos="flip-right" data-aos-duration="2000">
-      <div className="side-container" key={item.id}>
-        <img  src={item.img} alt={item.alt} className="side-image"/>
-        <div>
-          <Link to={item.link} className="link-name">{item.link}</Link>
+        <div className="side-container" key={item.id}>
+          <img src={item.img} alt={item.alt} className="side-image" />
+          <div>
+            <Link to={item.link} className="link-name">{item.link}</Link>
+          </div>
         </div>
-      </div>
       </Col>
     )
   })

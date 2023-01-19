@@ -10,18 +10,18 @@ const Magazine = () => {
     }, []);
     const MagazinePart = magazine.map((item) => {
         return (
-                <Col className="row-container" key={item.id} lg={3} md={6} data-aos="zoom-out-up" data-aos-duration="1000"> 
-                    <div key={item.id} className="Magazine-section">
-                        <img src={item.img} alt={item.alt} className="new-image" />
-                        <div className="magazine-info">
-                            <span className="cover-span">COVER </span>
-                            <span className="span-title">{item.alt}</span>
-                            <div>
-                                <Link to={item.link} className="link-name">{item.link}</Link>
-                            </div>
+            <Col className="row-container" key={item.id} lg={3} md={6} data-aos="zoom-out-up" data-aos-duration="1000">
+                <div key={item.id} className="Magazine-section">
+                    <img src={item.img} alt={item.alt} className="new-image" />
+                    <div className="magazine-info">
+                        <span className="cover-span">COVER </span>
+                        <span className="span-title">{item.alt}</span>
+                        <div>
+                            <Link to={item.link} className="link-name">{item.title}</Link>
                         </div>
                     </div>
-                </Col>
+                </div>
+            </Col>
         );
     });
     return (

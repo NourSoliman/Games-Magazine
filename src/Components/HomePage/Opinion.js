@@ -1,13 +1,13 @@
-import React , {useState , useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import data from '../../data/data.json'
-import {Link} from 'react-router-dom'
+import { Link } from 'react-router-dom'
 function Opinion() {
-    const [opin , setOpin] = useState([])
-    useEffect(()=>{
+    const [opin, setOpin] = useState([])
+    useEffect(() => {
         const dataOpin = data.opinions
         setOpin(dataOpin)
-    },[])
-    const dataOpinion = opin.map((item)=>{
+    }, [])
+    const dataOpinion = opin.map((item) => {
         return (
             <div className='opinion-container' key={item.id}>
                 <img src={item.img} alt={item.alt} className="opinion-images"></img>

@@ -19,12 +19,39 @@ $main-font: sans-serif;
 }
 @mixin images {
   width: 100%;
-  height: 150px;
+  object-fit: cover;
 }
 @mixin hovering {
   color: black;
 }
-
+@mixin span {
+  position: relative;
+  background-color: $main-color;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 5px;
+}
+@mixin span-before {
+  content: "N";
+  position: absolute;
+  font-family: $main-font;
+  text-align: center;
+  right: 6px;
+  font-weight: bold;
+  color: white;
+}
+@mixin article-head {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+@mixin infos {
+  position: relative;
+  top: 30px;
+  left: 10px;
+}
 /*Home Styles*/
 
 .header {
@@ -43,6 +70,10 @@ $main-font: sans-serif;
   font-weight: 900;
   text-align: center;
   padding-top: 12px;
+}
+.logo-link {
+  text-decoration: none;
+  color: white !important;
 }
 .sign,
 .subscribe {
@@ -89,9 +120,10 @@ $main-font: sans-serif;
   font-weight: 500;
 }
 .navbar-nav .nav-link:hover::before,
-.nav-link:focus,
+.navbar-nav .nav-link:focus,
 .nav-link:active {
   transform: scaleY(1);
+  background-color: $main-color;
   color: white !important;
 }
 .navbar-nav a:not(:last-child) {
@@ -143,6 +175,7 @@ $main-font: sans-serif;
   font-weight: bold;
   padding: 0 8px;
   text-align: left;
+  margin: 8px;
 }
 
 /*Top Story*/
@@ -178,7 +211,7 @@ $main-font: sans-serif;
 /*More GAMES */
 
 .moregames-container {
-  @include container-details;
+  padding-top: 15px;
   padding-bottom: 10px;
 }
 .moregames-container:not(:last-child) {
@@ -239,29 +272,15 @@ $main-font: sans-serif;
   width: 100%;
 }
 .magazine-header {
-  display: flex;
-  justify-content: center;
-  padding-top: 15px;
-  padding-bottom: 10px;
+  @include article-head;
   border-bottom: 1px solid $gray-color;
 }
 .header-span {
-  position: relative;
-  background-color: $main-color;
-  width: 25px;
-  height: 25px;
-  display: inline-block;
+  @include span;
   top: 8px;
-  margin-right: 5px;
 }
 .header-span::before {
-  content: "N";
-  position: absolute;
-  font-family: $main-font;
-  text-align: center;
-  right: 6px;
-  font-weight: bold;
-  color: white;
+  @include span-before;
 }
 .cover-span {
   background-color: $main-color;
@@ -475,6 +494,58 @@ $main-font: sans-serif;
 }
 /*Footerinfo End*/
 
+/*MMORPG GAMES START*/
+.mmo-images {
+  @include images;
+  height: auto;
+}
+.mmogames-container {
+  display: flex;
+  gap: 5px;
+}
+.mmo-span {
+  @include span;
+  top: 3px;
+}
+.mmo-span::before {
+  @include span-before;
+}
+.mmo-head {
+  @include article-head;
+}
+.mmo3-images {
+  @include images;
+  height: 250px;
+}
+.mmo-row {
+  gap: 10px;
+}
+.mmo-infoP {
+  @include infos;
+}
+.mmo-infolink {
+  @include infos;
+  @include link-details;
+}
+.mmo-infolink:hover{
+  border-bottom: 1px solid $main-color;
+}
+.row-part2 {
+  padding-top: 15px;
+}
+.mmo-col {
+  padding-bottom: 10px;
+}
+/*MMORPG GAMES END*/
+/*Scroll up Start*/
+.scrollup {
+  position: fixed;
+  bottom: 10px;
+  right: 0;
+  border: none;
+  background-color: transparent;
+}
+/*Scroll up End*/
 /*Media Query*/
 
 @media only screen and (max-width: 992px)  {

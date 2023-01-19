@@ -1,27 +1,26 @@
-import React , {useState , useEffect} from 'react'
+import React, { useState, useEffect } from 'react'
 import data from '../../data/data.json'
-import {Link} from 'react-router-dom'
 const Advertisement = () => {
-    const [adver , setAdver] = useState([])
-    useEffect(()=>{
-    const advertise = data.Sponsored
+    const [adver, setAdver] = useState([])
+    useEffect(() => {
+        const advertise = data.Sponsored
         setAdver(advertise)
-    },[])
-    const AdvertisementArea = adver.map((item)=>{
+    }, [])
+    const AdvertisementArea = adver.map((item) => {
         return (
-            
+
             <div className="newgames-container" key={item.id}>
-                <img src={item.img} alt={item.alt} className="new-image"/>
+                <img src={item.img} alt={item.alt} className="new-image" />
                 <div className='adver-content'>
-                <div>
-                    <Link to={item.link} className="header-link">{item.link}</Link>
-                </div>
-                <div>
-                    <p className="newgames-p">{item.subject}</p>
+                    <div>
+                        <a href={item.link} target="_blank" rel="noopener noreferrer" className="header-link">{item.title}</a>
+                    </div>
+                    <div>
+                        <p className="newgames-p">{item.subject}</p>
+                    </div>
                 </div>
             </div>
-            </div>
-            
+
         )
     })
     return (
