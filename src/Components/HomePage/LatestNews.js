@@ -9,7 +9,7 @@ function TheDebate() {
     }, [])
     const LatestArticle = latest.map((item) => {
         return (
-            <div className='latest-container' key={item.id} data-aos="fade-up" data-aos-duration="2000">
+            <div className='latest-container' key={item.id} data-aos="fade-up" >
                 <img src={item.img} alt={item.alt} className="latest-images" />
                 <div>
                     <Link to={item.link} className="link-name">{item.link}</Link>

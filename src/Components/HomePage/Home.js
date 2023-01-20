@@ -8,13 +8,9 @@ import MoreGames from "./MoreGames";
 import Opinion from "./Opinion";
 import LatestNews from "./LatestNews";
 import "../Styles/Home.scss";
-import Aos from 'aos';
 import "aos/dist/aos.css"
 import BestMMO from "./BestMMO";
 const Home = () => {
-    Aos.init(() => {
-        Aos.init({ duration: 4000 })
-    })
     return (
         <Row>
             <Col lg={3} md={5} xs={12} className="main-left-column" >

@@ -1,4 +1,5 @@
-import {Routes , Route , HashRouter} from 'react-router-dom'
+import {Routes , Route , HashRouter } from 'react-router-dom'
+import { useEffect } from 'react';
 // import Home from './Components/HomePage/Home'
 import MainPage from './Components/HomePage/MainPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -14,7 +15,14 @@ import MmoPage from './Components/Pages/MmoPage/MmoPage';
 import FPSPage from './Components/Pages/FPSGames/FPSPage';
 import RpgPage from './Components/Pages/RpgGames/RpgPage';
 import BackToTop from './Components/HomePage/BackToTop';
+import AOS from 'aos';
+import "aos/dist/aos.css"
 const App = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 1500
+    })
+  })
   return (
     <HashRouter>
       <Header />

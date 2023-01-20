@@ -10,7 +10,7 @@ function RpgPart2() {
     }, [])
     const rpgPart2 = rpg2.map((item) => {
         return (
-            <Col md={3} xs={12} key={item.id} data-aos="zoom-in" data-aos-duration="1000">
+            <Col md={3} xs={12} key={item.id} data-aos="zoom-in" >
                 <div>
                     <img src={item.img} alt="rpg" className='mmo-images' />
                 </div>

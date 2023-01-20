@@ -10,7 +10,7 @@ function RpgPart4() {
     }, [])
     const rpgPart4 = part4.map((item) => {
         return (
-            <Col md={12} sm={12} data-aos="fade-left" data-aos-duration="1000" key={item.id} className="mmo-col">
+            <Col md={12} sm={12} data-aos="fade-left"  key={item.id} className="mmo-col">
                 <div className='mmogames-container'>
                     <div>
                         <img src={item.img} alt="rpg" className='mmo3-images' />

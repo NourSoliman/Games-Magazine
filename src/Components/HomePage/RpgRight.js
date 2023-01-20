@@ -9,7 +9,7 @@ const RpgRight = () => {
     }, [])
     const rpgRight = right.map((item) => {
         return (
-            <div key={item.id} className="mini-info" data-aos="slide-right" data-aos-duration="1000">
+            <div key={item.id} className="mini-info" data-aos="slide-right" >
                 <img src={item.img} alt={item.alt} className="mmoRight-images" />
                 <Link to={item.link} className="link-name">{item.title}</Link>
             </div>

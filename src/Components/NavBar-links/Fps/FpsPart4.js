@@ -10,14 +10,14 @@ function FpsPart4() {
     }, [])
     const fpsPart4 = fps4.map((item) => {
         return (
-            <Col md={12} sm={12} data-aos="fade-left" data-aos-duration="1000" key={item.id} className="mmo-col">
+            <Col md={12} sm={12} data-aos="fade-left"  key={item.id} className="mmo-col" >
                 <div className='mmogames-container'>
                     <div>
                         <img src={item.img} alt="mmo" className='mmo3-images' />
                     </div>
                     <div >
                         <div>
-                            <Link to={ '/' + item.link  }  className="mmo-infolink">{item.title}</Link>
+                            <Link to={'/' + item.link} className="mmo-infolink">{item.title}</Link>
                         </div>
                         <p className="mmo-infoP">{item.subject}</p>
                     </div>

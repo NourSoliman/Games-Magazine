@@ -10,7 +10,7 @@ const MmoPart3 = () => {
     },[])
     const mmoPar3 = part3.map((item)=>{
         return (
-            <Col md={12} sm={12} data-aos="fade-left" data-aos-duration="1000" key={item.id}>
+            <Col md={12} sm={12} data-aos="fade-left"  key={item.id}>
             <div className='mmogames-container'>
                 <div>
                 <img src={item.img} alt="mmo" className='mmo3-images'/>

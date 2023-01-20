@@ -10,9 +10,6 @@ import Magazine from "../../HomePage/Magazine";
 import Sponoser from "./Sponoser";
 import ReadMore from "./ReadMore";
 function MmoPage() {
-  //   Aos.init(()=>{
-  //     Aos.init({duration:4000})
-  // })
   return (
     <Container fluid>
       <Row>

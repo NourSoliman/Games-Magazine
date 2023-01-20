@@ -1,14 +1,10 @@
 import React from 'react'
 import RpgPart1 from './RpgPart1'
 import RpgPart2 from './RpgPart2'
-import Aos from 'aos';
 import "aos/dist/aos.css"
 import RpgPart3 from './RpgPart3';
 import RpgPart4 from './RpgPart4';
 const MainRPG = ()=> {
-    Aos.init(()=>{
-        Aos.init({duration:4000})
-    })
   return (
     <div>
         {/*First*/}

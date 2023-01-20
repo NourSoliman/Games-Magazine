@@ -10,7 +10,7 @@ const Magazine = () => {
     }, []);
     const MagazinePart = magazine.map((item) => {
         return (
-            <Col className="row-container" key={item.id} lg={3} md={6} data-aos="zoom-out-up" data-aos-duration="1000">
+            <Col className="row-container" key={item.id} lg={3} md={6} data-aos="zoom-out-up" >
                 <div key={item.id} className="Magazine-section">
                     <img src={item.img} alt={item.alt} className="new-image" />
                     <div className="magazine-info">

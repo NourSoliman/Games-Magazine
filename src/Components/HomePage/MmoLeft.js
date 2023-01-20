@@ -11,7 +11,7 @@ function Mmo() {
     }, [])
     const mmoLeft = mmo.map((item) => {
         return (
-            <Col key={item.id} data-aos="slide-right" data-aos-duration="2000">
+            <Col key={item.id} data-aos="slide-right" >
                 <div key={item.id} >
                     <img src={item.img} alt={item.alt} className="mmoLeft-images" />
                 </div>
