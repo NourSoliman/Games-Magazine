@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Games-Magazine/static/css/main.00a65abd.css",
-    "main.js": "/Games-Magazine/static/js/main.1b12ed4e.js",
+    "main.js": "/Games-Magazine/static/js/main.47e1a28e.js",
     "static/media/FPS1.mp4": "/Games-Magazine/static/media/FPS1.dbfb9209d453d1c39b19.mp4",
     "static/media/mmo1.mp4": "/Games-Magazine/static/media/mmo1.61c4c71447a1b0bba608.mp4",
     "static/media/Rpg1.mp4": "/Games-Magazine/static/media/Rpg1.f5d104d8ce0577a15a9a.mp4",
     "index.html": "/Games-Magazine/index.html",
     "main.00a65abd.css.map": "/Games-Magazine/static/css/main.00a65abd.css.map",
-    "main.1b12ed4e.js.map": "/Games-Magazine/static/js/main.1b12ed4e.js.map"
+    "main.47e1a28e.js.map": "/Games-Magazine/static/js/main.47e1a28e.js.map"
   },
   "entrypoints": [
     "static/css/main.00a65abd.css",
-    "static/js/main.1b12ed4e.js"
+    "static/js/main.47e1a28e.js"
   ]
 }
