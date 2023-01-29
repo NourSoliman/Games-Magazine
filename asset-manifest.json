@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Games-Magazine/static/css/main.00a65abd.css",
-    "main.js": "/Games-Magazine/static/js/main.f23ded2e.js",
+    "main.js": "/Games-Magazine/static/js/main.7cfcc994.js",
     "static/media/FPS1.mp4": "/Games-Magazine/static/media/FPS1.dbfb9209d453d1c39b19.mp4",
     "static/media/rpgleft1.png": "/Games-Magazine/static/media/rpgleft1.50473d64ff7f93ccd611.png",
     "static/media/rpg3.png": "/Games-Magazine/static/media/rpg3.898b3dc249349cdf3525.png",
@@ -108,10 +108,10 @@
     "static/media/EldenRing.jpg": "/Games-Magazine/static/media/EldenRing.1833fd76c39586a8edde.jpg",
     "index.html": "/Games-Magazine/index.html",
     "main.00a65abd.css.map": "/Games-Magazine/static/css/main.00a65abd.css.map",
-    "main.f23ded2e.js.map": "/Games-Magazine/static/js/main.f23ded2e.js.map"
+    "main.7cfcc994.js.map": "/Games-Magazine/static/js/main.7cfcc994.js.map"
   },
   "entrypoints": [
     "static/css/main.00a65abd.css",
-    "static/js/main.f23ded2e.js"
+    "static/js/main.7cfcc994.js"
   ]
 }
