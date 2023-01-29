@@ -18,7 +18,7 @@ function Sponoser() {
                         <img src={require(`./../../../Images` + item.img)} alt={item.alt} className="new-image" />
                         <div className='adver-content'>
                             <div>
-                                <Link to={item.link} className="header-link">{item.link}</Link>
+                                <Link to={item.link} className="header-link">{item.title}</Link>
                             </div>
                             <div>
                                 <p className="newgames-p">{item.subject}</p>
