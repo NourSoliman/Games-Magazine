@@ -12,7 +12,7 @@ function MoreInPages() {
         return (
                 <Col md={4} key={item.id}>
                     <div>
-                    <img src={item.img} alt="mmo-pic" className='moremmo-images '/>
+                    <img src={require(`./../../../Images` + item.img)} alt="mmo-pic" className='moremmo-images '/>
                     <Link className="header-link">{item.title}</Link>
                     </div>
                 </Col>

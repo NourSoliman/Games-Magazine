@@ -10,7 +10,7 @@ const MobileRight = () => {
   const MobileRight = mobileR.map((item) => {
     return (
       <div key={item.id} className="mini-info" data-aos="slide-right" >
-        <img src={item.img} alt={item.alt} className="mmoRight-images" />
+        <img src={require(`./../../Images` + item.img)} alt={item.alt} className="mmoRight-images" />
         <Link to={item.link} className="link-name">{item.title}</Link>
       </div>
     )

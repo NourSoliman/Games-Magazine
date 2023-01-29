@@ -12,7 +12,7 @@ function BestMMO() {
         return (
             <Col sm={4} xs={12} key={item.id} data-aos="fade-up" >
                 <div className='bestmmo-container' key={item.id}>
-                    <img src={item.img} alt={item.alt} className="best-images" />
+                    <img src={require(`./../../Images` + item.img)} alt={item.alt} className="best-images" />
                     <div>
                         <Link to={item.link} className="link-name">{item.title}</Link>
                     </div>

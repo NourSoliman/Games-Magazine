@@ -13,7 +13,7 @@ function Mmo() {
         return (
             <Col key={item.id} data-aos="slide-right" >
                 <div key={item.id} >
-                    <img src={item.img} alt={item.alt} className="mmoLeft-images" />
+                    <img src={require(`./../../Images` + item.img)} alt={item.alt} className="mmoLeft-images" />
                 </div>
                 <div>
                     <Link to={item.link} className="link-name">{item.title}</Link>

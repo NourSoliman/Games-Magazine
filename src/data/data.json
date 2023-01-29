@@ -44,7 +44,7 @@
     "NewGames": [
         {
             "id": 1,
-            "img": "https://s3.gaming-cdn.com/images/products/3266/orig/throne-and-liberty-pc-game-cover.jpg?v=1666626936",
+            "img": "/one.jpg",
             "alt": "Game Name",
             "link": "mmo",
             "title": "Throne And Liberty",
@@ -52,7 +52,7 @@
         },
         {
             "id": 2,
-            "img": "https://s3.gaming-cdn.com/images/products/3266/orig/throne-and-liberty-pc-game-cover.jpg?v=1666626936",
+            "img": "/one.jpg",
             "alt": "Game Name",
             "link": "mmo",
             "title": "Throne And Liberty",
@@ -60,7 +60,7 @@
         },
         {
             "id": 3,
-            "img": "https://s3.gaming-cdn.com/images/products/3266/orig/throne-and-liberty-pc-game-cover.jpg?v=1666626936",
+            "img": "/one.jpg",
             "alt": "Game Name",
             "link": "mmo",
             "title": "Throne And Liberty",
@@ -70,7 +70,7 @@
     "TopStory": [
         {
             "id": 1,
-            "img": "https://assets-prd.ignimgs.com/2022/03/25/throne-and-liberty-1-1648241362286.jpg",
+            "img": "/throne1.jpg",
             "alt": "thronePic",
             "link": "mmo",
             "title": "Throne&Liberty Official Trailer",
@@ -80,7 +80,7 @@
     "BestGames": [
         {
             "id": 1,
-            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/b/b9/Elden_Ring_Box_art.jpg/220px-Elden_Ring_Box_art.jpg",
+            "img": "/EldenRing.jpg",
             "name": "EldenRing",
             "link": "RolePG",
             "alt": "elden",
@@ -88,7 +88,7 @@
         },
         {
             "id": 2,
-            "img": "https://cdn1.epicgames.com/offer/f696430be718494fac1d6542cfb22542/EGS_MarvelsSpiderManMilesMorales_InsomniacGamesNixxesSoftware_S2_1200x1600-58989e7116de3f70a2ae6ea56ee202c6",
+            "img": "/SpiderMan.png",
             "name": "SpiderMan",
             "link": "RolePG",
             "alt": "Spider",
@@ -96,7 +96,7 @@
         },
         {
             "id": 3,
-            "img": "https://upload.wikimedia.org/wikipedia/en/thumb/9/9f/Cyberpunk_2077_box_art.jpg/220px-Cyberpunk_2077_box_art.jpg",
+            "img": "/CyberPunk.jpg",
             "name": "CyberPunk",
             "link": "RolePG",
             "alt": "Punk",
@@ -106,7 +106,7 @@
     "BestMmo": [
         {
             "id": 1,
-            "img": "https://pbs.twimg.com/media/FMptpSjUYAQOtem.jpg",
+            "img": "/BestMmo1.png",
             "link": "MMORPG",
             "title": "Guild Wars",
             "alt": "GuildWars",
@@ -114,7 +114,7 @@
         },
         {
             "id": 2,
-            "img": "https://media.herni-kupony.cz/produkty/produktove-obrazky/blizzard/wow-product.png",
+            "img": "/BestMmo2.png",
             "link": "MMORPG",
             "title": "World Of War Craft",
             "alt": "GuildWars",
@@ -122,7 +122,7 @@
         },
         {
             "id": 3,
-            "img": "https://m.media-amazon.com/images/I/81+h4U-sMBL.jpg",
+            "img": "/BestMmo3.png",
             "link": "MMORPG",
             "title": "BlackDesert",
             "alt": "GuildWars",
@@ -132,7 +132,7 @@
     "Sponsored": [
         {
             "id": 1,
-            "img": "https://images.pushsquare.com/95c8579c8aaed/best-ps4-games.large.jpg",
+            "img": "/advertise1.png",
             "alt": "Sponsored",
             "link": "https://github.com/NourSoliman?tab=repositories",
             "title": "Sponsored Area",
@@ -140,7 +140,7 @@
         },
         {
             "id": 2,
-            "img": "https://images.pushsquare.com/95c8579c8aaed/best-ps4-games.large.jpg",
+            "img": "/advertise1.png",
             "alt": "Sponsored",
             "link": "https://github.com/NourSoliman?tab=repositories",
             "title": "Sponsored Area",
@@ -148,7 +148,7 @@
         },
         {
             "id": 3,
-            "img": "https://images.pushsquare.com/95c8579c8aaed/best-ps4-games.large.jpg",
+            "img": "/advertise1.png",
             "alt": "Sponsored",
             "link": "https://github.com/NourSoliman?tab=repositories",
             "title": "Sponsored Area",
@@ -156,7 +156,7 @@
         },
         {
             "id": 4,
-            "img": "https://images.pushsquare.com/95c8579c8aaed/best-ps4-games.large.jpg",
+            "img": "/advertise1.png",
             "alt": "Sponsored",
             "link": "https://github.com/NourSoliman?tab=repositories",
             "title": "Sponsored Area",
@@ -164,7 +164,7 @@
         },
         {
             "id": 5,
-            "img": "https://images.pushsquare.com/95c8579c8aaed/best-ps4-games.large.jpg",
+            "img": "/advertise1.png",
             "alt": "Sponsored",
             "link": "https://github.com/NourSoliman?tab=repositories",
             "title": "Sponsored Area",
@@ -172,7 +172,7 @@
         },
         {
             "id": 6,
-            "img": "https://images.pushsquare.com/95c8579c8aaed/best-ps4-games.large.jpg",
+            "img": "/advertise1.png",
             "alt": "Sponsored",
             "link": "https://github.com/NourSoliman?tab=repositories",
             "title": "Sponsored Area",
@@ -182,7 +182,7 @@
     "MoreGames": [
         {
             "id": 1,
-            "img": "https://tryhardguides.com/wp-content/uploads/2022/12/albion-online-offers-yuletide-yak-skin-for-the-new-referral-season.jpg",
+            "img": "/Morep1.png",
             "alt": "albion",
             "link": "mmo",
             "title": "Albion Online",
@@ -190,7 +190,7 @@
         },
         {
             "id": 2,
-            "img": "https://www.enwallpaper.com/wp-content/uploads/2021/02/kfR6Uvr-scaled.jpg",
+            "img": "/Morep2.png",
             "alt": "Valorant",
             "title": "Valorant",
             "link": "FPS",
@@ -198,7 +198,7 @@
         },
         {
             "id": 3,
-            "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/730/ss_d196d945c6170e9cadaf67a6dea675bd5fa7a046.1920x1080.jpg?t=1668125812",
+            "img": "/Morep3.png",
             "alt": "CSGO",
             "title": "CSGO",
             "link": "FPS",
@@ -206,7 +206,7 @@
         },
         {
             "id": 4,
-            "img": "https://1.bp.blogspot.com/-GqWHFNq8Qwo/XmPUxNdQ_oI/AAAAAAAAIn0/LL5bEbeHJlstCLywcDd4f-NZD_exB1H4wCNcBGAsYHQ/s1600/foto_no_exif%2B%25289%2529.jpg",
+            "img": "/Morep4.png",
             "alt": "CrossFire",
             "title": "CrossFire",
             "link": "shooters",
@@ -214,7 +214,7 @@
         },
         {
             "id": 5,
-            "img": "https://prod.assets.earlygamecdn.com/images/apexseries.png?mtime=1655194640",
+            "img": "/Morep5.png",
             "alt": "Apex Legends",
             "title": "Apex Legends",
             "link": "shooters",
@@ -222,7 +222,7 @@
         },
         {
             "id": 6,
-            "img": "https://www.softpaz.com/screenshots/client-for-conquer-online-pc-v6609-netdragon-websoft-holdings-limited/6.png",
+            "img": "/Morep6.png",
             "alt": "Conquer Online",
             "title": "Conquer Online",
             "link": "mmo",
@@ -230,7 +230,7 @@
         },
         {
             "id": 7,
-            "img": "https://mmos.com/wp-content/gallery/blade-and-soul-overview-1-2/blade-and-soul-stun.jpg",
+            "img": "/Morep7.png",
             "alt": "Blade&Soul",
             "link": "MMORPG",
             "title": "Blade&Soul",
@@ -238,7 +238,7 @@
         },
         {
             "id": 8,
-            "img": "https://cdn2.unrealengine.com/mobile-ua-hero-1920x1080-2e33f21500f8.jpg",
+            "img": "/Morep8.png",
             "alt": "Fortnite",
             "link": "FPS",
             "title": "Fortnite",
@@ -246,7 +246,7 @@
         },
         {
             "id": 9,
-            "img": "https://wallpaperaccess.com/full/2374031.jpg",
+            "img": "/Morep9.png",
             "alt": "Mount&Blade",
             "link": "RolePG",
             "title": "Mount&Blade",
@@ -254,7 +254,7 @@
         },
         {
             "id": 10,
-            "img": "https://wallpapercave.com/wp/wp2667421.jpg",
+            "img": "/Morep10.png",
             "alt": "Diablo",
             "title": "Diablo",
             "link": "RolePG",
@@ -264,28 +264,28 @@
     "opinions": [
         {
             "id": 1,
-            "img": "https://m.media-amazon.com/images/M/MV5BNjQ3MjRjYzgtZDI1ZS00NmZmLWE4ZTgtNGFhNWEzYzQwNzRmXkEyXkFqcGdeQXVyMTcwODc0MDM@._V1_.jpg",
+            "img": "/bugBunny.png",
             "link": "Throne and Liberty Could Be 2023's Big Next-Gen MMO Launch",
             "alt": "bug bunny",
             "by": "By NourSoliman"
         },
         {
             "id": 2,
-            "img": "https://m.media-amazon.com/images/M/MV5BNjQ3MjRjYzgtZDI1ZS00NmZmLWE4ZTgtNGFhNWEzYzQwNzRmXkEyXkFqcGdeQXVyMTcwODc0MDM@._V1_.jpg",
+            "img": "/bugBunny.png",
             "link": "Throne and Liberty Could Be 2023's Big Next-Gen MMO Launch",
             "alt": "bug bunny",
             "by": "By NourSoliman"
         },
         {
             "id": 3,
-            "img": "https://m.media-amazon.com/images/M/MV5BNjQ3MjRjYzgtZDI1ZS00NmZmLWE4ZTgtNGFhNWEzYzQwNzRmXkEyXkFqcGdeQXVyMTcwODc0MDM@._V1_.jpg",
+            "img": "/bugBunny.png",
             "link": "Throne and Liberty Could Be 2023's Big Next-Gen MMO Launch",
             "alt": "bug bunny",
             "by": "By NourSoliman"
         },
         {
             "id": 4,
-            "img": "https://m.media-amazon.com/images/M/MV5BNjQ3MjRjYzgtZDI1ZS00NmZmLWE4ZTgtNGFhNWEzYzQwNzRmXkEyXkFqcGdeQXVyMTcwODc0MDM@._V1_.jpg",
+            "img": "/bugBunny.png",
             "link": "Throne and Liberty Could Be 2023's Big Next-Gen MMO Launch",
             "alt": "bug bunny",
             "by": "By NourSoliman"
@@ -294,37 +294,37 @@
     "LatestNews": [
         {
             "id": 1,
-            "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/elden-ring-with-folding-screen-monkey.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+            "img": "/latest1.png",
             "alt": "pic-alt",
             "link": "Elden Ring Player Turns Their Character Into a Monkey"
         },
         {
             "id": 2,
-            "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/star-wars-game-massive-entertainment.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+            "img": "/latest2.png",
             "alt": "pic-alt",
             "link": "Rumor: Ubisoft’s Star Wars Game Will Feature a Full Universe Like No Man’s Sky"
         },
         {
             "id": 3,
-            "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/god-of-war-ragnarok-kratos-face-close-up.jpeg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+            "img": "/latest3.png",
             "alt": "pic-alt",
             "link": "God of War: Ragnarok Fans Are Debating How Old Kratos Is"
         },
         {
             "id": 4,
-            "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/fort_dunstad.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+            "img": "/latest4.png",
             "alt": "pic-alt",
             "link": "Funny Skyrim Clip Sees a Player Uses Bridge As Catapult to Launch Dead NPCs"
         },
         {
             "id": 5,
-            "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/call-of-duty-warzone-2-1.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+            "img": "/latest5.png",
             "alt": "pic-alt",
             "link": "Strange Call of Duty: Warzone 2 Clip Shows Helicopter Randomly Explod"
         },
         {
             "id": 6,
-            "img": "https://static0.gamerantimages.com/wordpress/wp-content/uploads/2023/01/marvel-vs-capcom-infinite-spider-man-vs-venom.jpg?q=50&fit=contain&w=1140&h=&dpr=1.5",
+            "img": "/latest6.png",
             "alt": "pic-alt",
             "link": "Ultimate Marvel vs. Capcom 3 Mod Adds Iconic Spider-Man Villains As Playable Characters"
         }
@@ -332,56 +332,56 @@
     "Magazine": [
         {
             "id": 1,
-            "img": "https://images.purexbox.com/476a448ee2a61/best-xbox-rpgs.large.jpg",
+            "img": "/Magazinee1.png",
             "alt": "RPG",
             "link": "RolePG",
             "title": "A role-playing game (RPG) is a game in which each participant assumes the role of a character"
         },
         {
             "id": 2,
-            "img": "https://beebom.com/wp-content/uploads/2018/11/Best-mmorpg-featured.jpg",
+            "img": "/Magazinee2.png",
             "alt": "MMORPG",
             "link": "mmo",
             "title": "MMORPG means massively multiplayer online role-playing games, and it's a type of video "
         },
         {
             "id": 3,
-            "img": "https://static1.anpoimages.com/wordpress/wp-content/uploads/2022/09/Best-FPS-hero.jpg",
+            "img": "/Magazinee3.png",
             "alt": "FPS",
             "link": "shooters",
             "title": "First-person shooter (FPS) is a sub-genre of shooter video games centered "
         },
         {
             "id": 4,
-            "img": "https://i0.wp.com/blog.indiegala.com/wp-content/uploads/2021/12/Top-Upcoming-PC-Games-2022.png?fit=940%2C788&ssl=1",
+            "img": "/Magazinee4.png",
             "alt": "New Games",
             "link": "MMORPG",
             "title": "new games that recently came out 2022"
         },
         {
             "id": 5,
-            "img": "https://www.gameinformer.com/sites/default/files/styles/full/public/2022/05/16/4038a2d2/videogamereleases2023.jpg",
+            "img": "/Magazinee5.png",
             "alt": "UpcomingGames",
             "link": "RPG",
             "title": "Upcoming games 2023: this year's most anticipated releases"
         },
         {
             "id": 6,
-            "img": "https://earlygame.com/uploads/images/_body/Pubg-mobile-4.jpg",
+            "img": "/Magazinee6.png",
             "alt": "MobileGames",
             "link": "MobileGames",
             "title": "The top grossing mobile game worldwide for January 2022 was PUBG Mobile from Tencent "
         },
         {
             "id": 7,
-            "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/sandbox-1576536034.jpg",
+            "img": "/Magazinee7.png",
             "alt": "SandBox",
             "link": "Sandbox",
             "title": "a sandbox gameVideo games played in sandbox mode"
         },
         {
             "id": 8,
-            "img": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/adgames-1576082687.jpg",
+            "img": "/Magazinee8.png",
             "alt": "AdventureGames",
             "link": "adventure",
             "title": "Adventure games focus on puzzle solving within a narrative framework"
@@ -390,7 +390,7 @@
     "BestImages": [
         {
             "id": 1,
-            "img": "https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "img": "/bestimages.png",
             "alt": "Picture",
             "title": "Most Popular Online Games of 2022",
             "subject": "Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
@@ -398,7 +398,7 @@
         },
         {
             "id": 2,
-            "img": "https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "img": "/bestimages2.png",
             "alt": "Picture",
             "title": "Most Popular Online Games of 2022",
             "subject": "Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
@@ -406,7 +406,7 @@
         },
         {
             "id": 3,
-            "img": "https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "img": "/bestimages3.png",
             "alt": "Picture",
             "title": "Most Popular Online Games of 2022",
             "subject": "Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
@@ -414,7 +414,7 @@
         },
         {
             "id": 4,
-            "img": "https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "img": "/bestimages4.png",
             "alt": "Picture",
             "title": "Most Popular Online Games of 2022",
             "subject": "Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
@@ -422,7 +422,7 @@
         },
         {
             "id": 5,
-            "img": "https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "img": "/bestimages5.png",
             "alt": "Picture",
             "title": "Most Popular Online Games of 2022",
             "subject": "Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
@@ -430,7 +430,7 @@
         },
         {
             "id": 6,
-            "img": "https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "img": "/bestimages6.png",
             "alt": "Picture",
             "title": "Most Popular Online Games of 2022",
             "subject": "Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
@@ -438,7 +438,7 @@
         },
         {
             "id": 7,
-            "img": "https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "img": "/bestimages7.png",
             "alt": "Picture",
             "title": "Most Popular Online Games of 2022",
             "subject": "Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
@@ -446,7 +446,7 @@
         },
         {
             "id": 8,
-            "img": "https://mmorpg.gg/wp-content/uploads/2021/09/ESO-MMO-Best-Graphics-1024x576.webp",
+            "img": "/bestimages8.png",
             "alt": "Picture",
             "title": "Most Popular Online Games of 2022",
             "subject": "Most Popular Online Games of 2022Most Popular Online Games of 2022Most Popular Online Games of 2022",
@@ -456,19 +456,19 @@
     "SideShow": [
         {
             "id": 1,
-            "img": "https://cdn.mos.cms.futurecdn.net/YHdtAs36hSJUL56Lq2nxFi.jpg",
+            "img": "/sideshow1.png",
             "alt": "valorant pic",
             "link": "One Of The Best FPS Games"
         },
         {
             "id": 2,
-            "img": "https://wallpaperaccess.com/full/2632412.jpg",
+            "img": "/sideshow2.png",
             "alt": "albion pic",
             "link": "One Of The Best sandbox Games"
         },
         {
             "id": 3,
-            "img": "https://apyre.fr/wp-content/uploads/2022/10/throne-and-liberty-1-minute-of-action-gameplay-4k60fps-0-30-screenshot-1024x576.jpg",
+            "img": "/sideshow3.png",
             "alt": "throne-pic",
             "link": "One Of The Best MMo Games"
         }
@@ -476,14 +476,14 @@
     "MmoLeft": [
         {
             "id": 1,
-            "img": "https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/wallpapers/DragonBash-1280x720.jpg",
+            "img": "/mmoleft1.png",
             "alt": "GuildWars",
             "link": "MMORPG",
             "title": "One of the best games of the last 12 months"
         },
         {
             "id": 2,
-            "img": "https://i.ytimg.com/vi/s4gBChg6AII/maxresdefault.jpg",
+            "img": "/mmoleft2.png",
             "alt": "WOW",
             "link": "MMORPG",
             "title": "One of the best games of the last 12 months"
@@ -492,21 +492,21 @@
     "MmoRight": [
         {
             "id": 3,
-            "img": "https://cdn.akamai.steamstatic.com/steam/apps/582660/ss_8899e09c05645aa8730b57bc0412c07476312787.1920x1080.jpg?t=1671510670",
+            "img": "/mmoright1.png",
             "alt": "blackDesert",
             "link": "mmo",
             "title": "One of the best games of the last 12 months"
         },
         {
             "id": 4,
-            "img": "https://koreajoongangdaily.joins.com/data/photo/2021/08/30/b1bc82be-4a81-47aa-b04f-37a25d7fbec2.jpg",
+            "img": "/mmoright2.png",
             "alt": "blade-pic",
             "link": "mmo",
             "title": "One of the best games of the last 12 months"
         },
         {
             "id": 5,
-            "img": "https://upload.wikimedia.org/wikipedia/en/c/c0/Diablo_Immortal_App_Logo.png",
+            "img": "/mmoright3.png",
             "alt": "diablo",
             "link": "mmo",
             "title": "One of the best games of the last 12 months"
@@ -515,14 +515,14 @@
     "Fpsleft": [
         {
             "id": 1,
-            "img": "https://news.xbox.com/en-us/wp-content/uploads/sites/2/2020/06/Destiny2_Hero_Art.jpg",
+            "img":"/fpsleft1.png",
             "title": "One of the best games of the last 12 months",
             "link": "shooters",
             "alt": "disteny"
         },
         {
             "id": 2,
-            "img": "https://gmedia.playstation.com/is/image/SIEPDC/apex-legends-clubs-screen-01-ps4-en-19jan21?$facebook$",
+            "img":"/fpsleft2.png",
             "title": "One of the best games of the last 12 months",
             "link": "shooters",
             "alt": "Apex"
@@ -531,21 +531,21 @@
     "FpsRight": [
         {
             "id": 1,
-            "img": "https://cdn1.dotesports.com/wp-content/uploads/2021/02/23172633/csgo.jpg",
+            "img":"/fpsright1.png",
             "title": "One of the best games of the last 12 months",
             "link": "FPS",
             "alt": "CSGO"
         },
         {
             "id": 2,
-            "img": "https://images.contentstack.io/v3/assets/bltb6530b271fddd0b1/blt1d72b5b9518e767b/6348b9a2b3f39b38fccfbac4/VALORANT_2022_E5-3_PlayVALORANT_ContentStackThumbnail_1200x625_MB01_opt.jpg",
+            "img":"/fpsright2.png",
             "title": "One of the best games of the last 12 months",
             "link": "FPS",
             "alt": "valorant"
         },
         {
             "id": 3,
-            "img": "https://assets-prd.ignimgs.com/2022/06/23/overwatch-2-button-fin-1656022954568.jpg",
+            "img":"/fpsright3.png",
             "title": "One of the best games of the last 12 months",
             "link": "FPS",
             "alt": "overwatch2"
@@ -554,14 +554,14 @@
     "RpgLeft": [
         {
             "id": 1,
-            "img": "https://image.api.playstation.com/vulcan/img/rnd/202201/2122/J7oJE8POxtzUdpfGRKTeErQt.jpg",
+            "img": "/rpgleft1.png",
             "alt": "elden",
             "link": "RolePG",
             "title": "One of the best games of the last 12 months"
         },
         {
             "id": 2,
-            "img": "https://s3.amazonaws.com/prod-media.gameinformer.com/styles/full/s3/2019/01/18/b3a5e939/witcher3.jpg",
+            "img": "/rpgleft2.png",
             "alt": "witcher",
             "link": "RolePG",
             "title": "One of the best games of the last 12 months"
@@ -570,21 +570,21 @@
     "RpgRight": [
         {
             "id": 1,
-            "img": "https://venturebeat.com/wp-content/uploads/2021/01/republic-commando.jpg?fit=3840%2C2160&strip=all",
+            "img": "/rpgright1.png",
             "title": "One of the best games of the last 12 months",
             "link": "RPG",
             "alt": "StarWars"
         },
         {
             "id": 2,
-            "img": "https://www.cyberpunk.net/build/images/home3/screen-image-mercenary-e79283ec.jpg",
+            "img": "/rpgright2.png",
             "title": "One of the best games of the last 12 months",
             "link": "RPG",
             "alt": "Cyberpunk"
         },
         {
             "id": 3,
-            "img": "https://upload.wikimedia.org/wikipedia/en/4/45/Mount_%26_Blade_II_-_Bannerlord_cover.jpg",
+            "img": "/rpgright3.png",
             "title": "One of the best games of the last 12 months",
             "link": "RPG",
             "alt": "mount&blade"
@@ -593,14 +593,14 @@
     "MobileLeft": [
         {
             "id": 1,
-            "img": "https://i0.wp.com/maktaba-amma.com/wp-content/uploads/2021/01/Call-of-Duty-Mobile.jpg?fit=1920%2C1080&ssl=1",
+            "img": "/mobileleft1.png",
             "alt": "COD",
             "link": "MobileGames",
             "title": "One of the best games of the last 12 months"
         },
         {
             "id": 2,
-            "img": "https://metro.co.uk/wp-content/uploads/2020/12/gi-key-art-75ca.jpg?quality=90&strip=all",
+            "img": "/mobileleft2.png",
             "alt": "genshin",
             "link": "MobileGames",
             "title": "One of the best games of the last 12 months"
@@ -609,21 +609,21 @@
     "MobileRight": [
         {
             "id": 1,
-            "img": "https://mobilemodegaming.com/wp-content/uploads/2019/06/Blade_and_Soul_Mobile_2_604x423.jpg",
+            "img": "/mobileright1.png",
             "alt": "blade and soul",
             "link": "MobileGames",
             "title": "One of the best games of the last 12 months"
         },
         {
             "id": 2,
-            "img": "https://play-lh.googleusercontent.com/JRd05pyBH41qjgsJuWduRJpDeZG0Hnb0yjf2nWqO7VaGKL10-G5UIygxED-WNOc3pg",
+            "img": "/mobileright2.png",
             "alt": "pubg",
             "link": "MobileGames",
             "title": "One of the best games of the last 12 months"
         },
         {
             "id": 3,
-            "img": "https://images.ctfassets.net/vfkpgemp7ek3/3528761256/2040d228c4587a8937bf3e8a0effd77b/among-us-mobile-surpasses-85-million-downloads.jpg",
+            "img": "/mobileright3.png",
             "alt": "among us",
             "link": "MobileGames",
             "title": "One of the best games of the last 12 months"
@@ -632,8 +632,8 @@
     "Subscribe": [
         {
             "id": 1,
-            "img1": "https://covers.magazinecloner.com/covers/168544.jpg",
-            "img2": "https://covers.magazinecloner.com/covers/167237.jpg",
+            "img1": "/subscribe1.png",
+            "img2": "/subscribe2.png",
             "title": "In-depth Stories You Don't See Elsewhere About Topics You Want to Read!",
             "subject1": "All Access + Weekly Delivery.",
             "subject2": "Choose A Membership That's Perfect for You!"
@@ -642,7 +642,7 @@
     "NewsLetter": [
         {
             "id": 1,
-            "img": "https://delante.co/wp-content/uploads/2019/12/newsletter-definicja.png",
+            "img": "/news.png",
             "title": "News Letter",
             "subject": "In-depth Stories You Don't See Elsewhere About Topics You Want to Read."
         }
@@ -734,26 +734,21 @@
     "MmorpgPart1": [
         {
             "id": 1,
-            "img": "https://wallpaperaccess.com/full/1457309.jpg",
-            "img1": "https://images.ctfassets.net/5lpapfxq15sk/3Fd2H2A1PFMb3iMVxsRv3c/49347a0325874618ee786480fed843a2/NW-KA-mob.jpg",
-            "img2": "https://editors.dexerto.com/wp-content/uploads/2021/08/11/guild-wars-2-mmo.jpg",
+            "img": "/mmorpg1.png",
             "title": "Best Mmo Games",
             "link": "mmo",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
         },
         {
             "id": 2,
-            "img": "https://wallpapercave.com/wp/wp2343903.jpg",
-            "img1": "https://www.gamesvillage.it/wp-content/uploads/2022/07/World-of-Warcraft-Wrath-of-The-Lich-King-Classic-800x768.jpg",
-            "img2": "https://www.pcgamesn.com/wp-content/sites/pcgamesn/2022/09/best-mmorpg-games-albion-online.jpg",
+            "img": "/mmorpg2.png",
             "title": "Best Mmo Games",
             "link": "mmo",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
         },
         {
             "id": 3,
-            "img": "https://cutewallpaper.org/cdn-cgi/mirage/dd19f2d06ebc24f541f142b37b4289ffa7de722a7607e39984c5c6dd4ce8defd/1280/21/black-desert-online-wallpaper-4k/Black-Desert-Online.jpg",
-            "img1": "https://i.jeuxactus.com/datas/jeux/n/e/new-world/xl/new-world-5e90360aa06d1.jpg",
+            "img": "/mmorpg3.png",
             "title": "Best Mmo Games",
             "link": "mmo",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
@@ -762,28 +757,28 @@
     "MmoPart2": [
         {
             "id": 1,
-            "img": "https://i0.wp.com/www.sarumonin.com/wp-content/uploads/throne-and-liberty-2-1648241362287.jpg",
+            "img": "/mmorpg4.png",
             "title": "Best Mmo Games",
             "link": "mmo",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
         },
         {
             "id": 2,
-            "img": "https://cdn.cloudflare.steamstatic.com/steam/apps/582660/ss_8899e09c05645aa8730b57bc0412c07476312787.1920x1080.jpg?t=1671510670",
+            "img": "/mmorpg5.png",
             "title": "Best Mmo Games",
             "link": "mmo",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
         },
         {
             "id": 3,
-            "img": "https://m.media-amazon.com/images/G/01/SM/Amped/guildwars2s02/PlayforFree_TitleCard_1800x1000._CB646848282_.jpg",
+            "img": "/mmorpg6.png",
             "title": "Best Mmo Games",
             "link": "mmo",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
         },
         {
             "id": 4,
-            "img": "https://cdn.akamai.steamstatic.com/steam/apps/1063730/ss_59edc8f4cd2c13495538a3c96040cd133cab6555.1920x1080.jpg?t=1671141281",
+            "img": "/mmorpg7.png",
             "title": "Best Mmo Games",
             "link": "mmo",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
@@ -792,14 +787,14 @@
     "MmoPart3": [
         {
             "id": 1,
-            "img": "https://blz-contentstack-images.akamaized.net/v3/assets/bltf408a0557f4e4998/bltebf6967b841e69af/6328ebdae337fa0dc7263df8/wow-sub-2022-CMS-RD01-1920x1080.png?width=&format=webply&dpr=2&disable=upscale&quality=80",
+            "img": "/mmorpg8.png",
             "title": "Best Mmo Games",
             "link": "mmo",
             "subject": "One of the best games of the last 12 months One of the best games of the last 12 months"
         },
         {
             "id": 2,
-            "img": "https://bnetcmsus-a.akamaihd.net/cms/blog_header/zr/ZRFOJ95POW2L1646933907298.jpg",
+            "img": "/mmorpg9.png",
             "title": "Best Mmo Games",
             "link": "mmo",
             "subject": "One of the best games of the last 12 months One of the best games of the last 12 months"
@@ -808,21 +803,21 @@
     "RpgPart1": [
         {
             "id": 1,
-            "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_9beef14102f164fa1163536d0fb3a51d0a2e4a3f.1920x1080.jpg?t=1663663573",
+            "img": "/rpg1.png",
             "title": "One Of The Best RPG Games",
             "link": "RolePG",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
         },
         {
             "id": 2,
-            "img": "https://static.cdprojektred.com/thewitcher.com/gfx/witcher3/thumbnail-tw.jpg",
+            "img": "/rpg2.png",
             "title": "One Of The Best RPG Games",
             "link": "RolePG",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
         },
         {
             "id": 3,
-            "img": "https://wallpapershome.com/images/wallpapers/mount-blade-ii-bannerlord-3840x2160-screenshot-4k-19655.jpg",
+            "img": "/rpg3.png",
             "title": "One Of The Best RPG Games",
             "link": "RolePG",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
@@ -831,28 +826,28 @@
     "RpgPart2": [
         {
             "id": 1,
-            "img": "https://cdn.akamai.steamstatic.com/steam/apps/1091500/ss_4bda6f67580d94832ed2d5814e41ebe018ba1d9e.1920x1080.jpg?t=1663663573",
+            "img": "/rpg4.png",
             "title": "One Of The Best RPG Games",
             "link": "RolePG",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
         },
         {
             "id": 2,
-            "img": "https://s1.dmcdn.net/v/7dQua1Wmo0TSun-2T/x1080",
+            "img": "/rpg5.png",
             "title": "One Of The Best RPG Games",
             "link": "RolePG",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
         },
         {
             "id": 3,
-            "img": "https://assets-prd.ignimgs.com/2021/12/20/elden-ring-1640039956608.png",
+            "img": "/rpg6.png",
             "title": "One Of The Best RPG Games",
             "link": "RolePG",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
         },
         {
             "id": 4,
-            "img": "https://cdn1.epicgames.com/offer/c8738a4d1ead40368eab9688b3c7d737/EGS_TheElderScrollsVSkyrimAnniversaryEdition_BethesdaGameStudios_Editions_S1_2560x1440-accc22362e1ae7bf4c1fe215f357c5a6",
+            "img": "/rpg7.png",
             "title": "One Of The Best RPG Games",
             "link": "RolePG",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
@@ -861,13 +856,13 @@
     "RpgPart3": [
         {
             "id": 1,
-            "img": "https://assets.reedpopcdn.com/xox_005_W506I0H.jpg/BROK/resize/3840x3840%3E/format/jpg/quality/100/xox_005_W506I0H.jpg",
+            "img": "/rpg8.png",
             "title": "One Of The Best RPG Games",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
         },
         {
             "id": 2,
-            "img": "https://blog.turtlebeach.com/wp-content/uploads/2022/07/Diablo-3-Season-27-1024x576.png",
+            "img": "/rpg9.png",
             "title": "One Of The Best RPG Games",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
         }
@@ -875,21 +870,21 @@
     "FpsPart1": [
         {
             "id": 1,
-            "img": "https://images.purexbox.com/c18e5463385a7/1280x720.jpg",
+            "img": "/fps1.png",
             "title": "One Of The Best FPS Games",
             "link": "shooters",
             "subject": "One of the best games of the last 12 months One of the best games of the last 12 months"
         },
         {
             "id": 2,
-            "img": "https://www.gamespot.com/a/uploads/original/1601/16018044/4072257-seasonoftheseraph%281%29.jpg",
+            "img": "/fps2.png",
             "title": "One Of The Best FPS Games",
             "link": "shooters",
             "subject": "One of the best games of the last 12 months One of the best games of the last 12 months"
         },
         {
             "id": 3,
-            "img": "https://cdn.akamai.steamstatic.com/steam/apps/1172470/ss_b02481f3a0f9cb2f390625576f13e035d7f4973e.1920x1080.jpg?t=1670431796",
+            "img": "/fps3.png",
             "title": "One Of The Best FPS Games",
             "link": "shooters",
             "subject": "One of the best games of the last 12 months One of the best games of the last 12 months"
@@ -898,28 +893,28 @@
     "FpsPart2": [
         {
             "id": 1,
-            "img": "https://cdn.akamai.steamstatic.com/steam/apps/730/ss_118cb022b9a43f70d2e5a2df7427f29088b6b191.1920x1080.jpg?t=1668125812",
+            "img": "/fps4.png",
             "title": "One Of The Best FPS Games",
             "link": "shooters",
             "subject": "One of the best games of the last 12 months One of the best games of the last 12 months"
         },
         {
             "id": 2,
-            "img": "https://imageio.forbes.com/specials-images/imageserve/63c40250e186269d9689b8d9/0x0.jpg?format=jpg&width=1200",
+            "img": "/fps5.png",
             "title": "One Of The Best FPS Games",
             "link": "shooters",
             "subject": "One of the best games of the last 12 months One of the best games of the last 12 months"
         },
         {
             "id": 3,
-            "img": "https://cdn.mos.cms.futurecdn.net/RXornPRJhcP8gAzaA33zPe.jpg",
+            "img": "/fps6.png",
             "title": "One Of The Best FPS Games",
             "link": "shooters",
             "subject": "One of the best games of the last 12 months One of the best games of the last 12 months"
         },
         {
             "id": 4,
-            "img": "https://cdn-wp.thesportsrush.com/2022/05/e8e2f605-valorant-4.10-patch-notes.jpg",
+            "img": "/fps7.png",
             "title": "One Of The Best FPS Games",
             "link": "shooters",
             "subject": "One of the best games of the last 12 months One of the best games of the last 12 months"
@@ -928,14 +923,14 @@
     "FpsPart3": [
         {
             "id": 1,
-            "img": "https://www.spieltimes.com/wp-content/uploads/2021/11/Valorant-Agent-Chambers-2.jpg",
+            "img": "/fps8.png",
             "title": "One Of The Best FPS Games",
             "link": "shooters",
             "subject": "One of the best games of the last 12 months One of the best games of the last 12 months"
         },
         {
             "id": 2,
-            "img": "https://axisstudiosgroup.com/site/assets/files/14388/axisstudios_valorant_003.-full.jpg",
+            "img": "/fps9.png",
             "title": "One Of The Best FPS Games",
             "link": "shooters",
             "subject": "One of the best games of the last 12 months One of the best games of the last 12 months"
@@ -944,7 +939,6 @@
     "images": [
         {
             "id": 1,
-            "img": "https://wallpaperaccess.com/full/2632299.jpg",
             "title": "The Best multiplayer online role-playing game You Can Play In 2023 ",
             "type": "mmo",
             "key": 1,
@@ -968,27 +962,27 @@
     "MoreinMmo": [
         {
             "id": 1,
-            "img": "https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/2015/08/ea742royal-guard-outfit.jpg",
+            "img": "/moreinmmo1.png",
             "title": "One of the best games of the last 12 months One of the best games of the last 12 months "
         },
         {
             "id": 2,
-            "img": "https://d3b4yo2b5lbfy.cloudfront.net/wp-content/uploads/2021/08/c6ddaAnniversaryDyes.png",
+            "img": "/moreinmmo2.png",
             "title": "One of the best games of the last 12 months One of the best games of the last 12 months "
         },
         {
             "id": 3,
-            "img": "https://www.gamereactor.eu/media/04/guildwars2_1660493b.jpg",
+            "img": "/moreinmmo3.png",
             "title": "One of the best games of the last 12 months One of the best games of the last 12 months "
         },
         {
             "id": 4,
-            "img": "https://mlpnk72yciwc.i.optimole.com/cqhiHLc.IIZS~2ef73/w:auto/h:auto/q:75/https://bleedingcool.com/wp-content/uploads/2022/12/Throne-Liberty-Director-Preview-Art.jpg",
+            "img": "/moreinmmo4.png",
             "title": "One of the best games of the last 12 months One of the best games of the last 12 months "
         },
         {
             "id": 5,
-            "img": "https://cdn.wccftech.com/wp-content/uploads/2022/12/Throne-and-Liberty.jpg",
+            "img": "/moreinmmo5.png",
             "title": "One of the best games of the last 12 months One of the best games of the last 12 months "
         }
     ]

@@ -12,7 +12,7 @@ const MmoPart2 = () => {
         return (
                 <Col md={3} xs={12} key={item.id} data-aos="zoom-in" >
                     <div>
-                    <img src={item.img} alt="mmo" className='mmo-images'/>
+                    <img src={ require(`./../../../Images` + item.img)} alt="mmo" className='mmo-images'/>
                     </div>
                     <div>
                         <Link to={ '/' + item.link  }  className="link-name">{item.title}</Link>

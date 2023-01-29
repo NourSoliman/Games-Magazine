@@ -11,7 +11,7 @@ function MoreGames() {
         return (
             <div className='moregames-container' key={item.id} data-aos="fade-up" >
                 <div>
-                    <img src={item.img} alt={item.alt} className="more-images" />
+                    <img src={require(`./../../Images` +item.img)} alt={item.alt} className="more-images" />
                 </div>
                 <div className='info'>
                     <Link to={item.link} className="header-link">{item.title}</Link>

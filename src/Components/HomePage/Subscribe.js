@@ -17,8 +17,8 @@ const Subscribe = () => {
                         <Row className="sub-row">
                             <Col md={4} >
                                 <div className="subImages-container">
-                                    <img src={item.img1} alt="first-pic" className="sub-image1" />
-                                    <img src={item.img2} alt="2nd-pic" className="sub-image2" />
+                                    <img src={require(`./../../Images` + item.img1)} alt="first-pic" className="sub-image1" />
+                                    <img src={require(`./../../Images` + item.img2)} alt="2nd-pic" className="sub-image2" />
                                 </div>
                             </Col>
                             <Col md={8} xs={12} className="sub-info">

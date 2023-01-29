@@ -12,7 +12,7 @@ function FpsPart1() {
         return (
             <Col md={4} sm={12} key={item.id}>
                 <div>
-                    <img src={item.img} alt="fps" className='mmo-images' />
+                    <img src={require(`./../../../Images` + item.img)} alt="fps" className='mmo-images' />
                 </div>
                 <div>
                     <h4><Link to={'/' + item.link} className="link-name">{item.title}</Link></h4>

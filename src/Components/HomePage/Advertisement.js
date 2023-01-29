@@ -10,7 +10,7 @@ const Advertisement = () => {
         return (
 
             <div className="newgames-container" key={item.id}>
-                <img src={item.img} alt={item.alt} className="new-image" />
+                <img src={ require(`./../../Images` + item.img)} alt={item.alt} className="new-image" />
                 <div className='adver-content'>
                     <div>
                         <a href={item.link} target="_blank" rel="noopener noreferrer" className="header-link">{item.title}</a>

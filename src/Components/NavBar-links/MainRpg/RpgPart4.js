@@ -13,7 +13,7 @@ function RpgPart4() {
             <Col md={12} sm={12} data-aos="fade-left"  key={item.id} className="mmo-col">
                 <div className='mmogames-container'>
                     <div>
-                        <img src={item.img} alt="rpg" className='mmo3-images' />
+                        <img src={ require(`./../../../Images` + item.img)} alt="rpg" className='mmo3-images' />
                     </div>
                     <div >
                         <div>

@@ -15,7 +15,7 @@ function BestImages() {
                     <div >
                         <Link to={item.link} className="images-link">{item.link}</Link>
                     </div>
-                    <img src={item.img} alt={item.alt} className="new-image" />
+                    <img src={require(`./../../Images` + item.img)} alt={item.alt} className="new-image" />
                 </div>
                 <div>
                     <div>

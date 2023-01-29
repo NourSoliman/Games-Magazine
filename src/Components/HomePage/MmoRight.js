@@ -10,7 +10,7 @@ const MmoRight = () => {
   const mmoRight = right.map((item) => {
     return (
       <div key={item.id} className="mini-info" data-aos="slide-left">
-        <img src={item.img} alt={item.alt} className="mmoRight-images" />
+        <img src={require(`./../../Images` + item.img)} alt={item.alt} className="mmoRight-images" />
         <Link className="link-name">{item.title}</Link>
       </div>
     )

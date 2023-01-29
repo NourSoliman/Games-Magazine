@@ -13,7 +13,7 @@ const FpsLeft = () => {
         return (
             <Col md={4} key={item.id} data-aos="slide-left" >
                 <div key={item.id}>
-                    <img src={item.img} alt={item.alt} className="mmoLeft-images" />
+                    <img src={require(`./../../Images` + item.img)} alt={item.alt} className="mmoLeft-images" />
                     <div>
                         <Link to={item.link} className="link-name">{item.title}</Link>
                     </div>

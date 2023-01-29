@@ -12,7 +12,7 @@ const Slider = () => {
     return (
       <Col key={item.id} md={4} data-aos="flip-right" >
         <div className="side-container" key={item.id}>
-          <img src={item.img} alt={item.alt} className="side-image" />
+          <img src={require(`./../../Images` + item.img)} alt={item.alt} className="side-image" />
           <div>
             <Link to={item.link} className="link-name">{item.link}</Link>
           </div>

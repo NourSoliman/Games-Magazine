@@ -12,7 +12,7 @@ function BestGames() {
         return (
             <Col sm={4} xs={12} key={item.id} className="best-Article" >
                 <div className='bestgames-container' key={item.id} >
-                    <img src={item.img} alt={item.alt} className="best-images" />
+                    <img src={require(`./../../Images` + item.img)} alt={item.alt} className="best-images" />
                     <div>
                         <Link to={item.link} className="header-link">{item.name}</Link>
                     </div>

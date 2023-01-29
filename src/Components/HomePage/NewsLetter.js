@@ -11,7 +11,7 @@ const NewsLetter = () => {
     return (
       <div className="news-container" key={item.id}>
         <div>
-          <img src={item.img} alt={item.title} className="news-image" />
+          <img src={require(`./../../Images` + item.img)} alt={item.title} className="news-image" />
         </div>
         <div className="news-info">
           <h4>{item.title}</h4>

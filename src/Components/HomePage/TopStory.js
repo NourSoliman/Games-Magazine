@@ -10,7 +10,7 @@ const TopStory = () => {
   const storyArticle = story.map((item) => {
     return (
       <div key={item.id} className="topStory-container">
-        <img src={item.img} alt={item.alt} className="top-image" />
+        <img src={require('./../../Images'+ item.img)} alt={item.alt} className="top-image" />
         <div>
           <Link to={item.link} className="header-link">{item.title}</Link>
         </div>
@@ -28,3 +28,8 @@ const TopStory = () => {
   )
 }
 export default TopStory
+
+// "img": "https://s3.gaming-cdn.com/images/products/3266/orig/throne-and-liberty-pc-game-cover.jpg?v=1666626936",
+// "img": "https://s3.gaming-cdn.com/images/products/3266/orig/throne-and-liberty-pc-game-cover.jpg?v=1666626936",
+// "img": "https://s3.gaming-cdn.com/images/products/3266/orig/throne-and-liberty-pc-game-cover.jpg?v=1666626936",
+
