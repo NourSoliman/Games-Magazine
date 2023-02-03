@@ -230,7 +230,7 @@
         },
         {
             "id": 7,
-            "img": "/Morep7.png",
+            "img": "/Morep7.jpg",
             "alt": "Blade&Soul",
             "link": "MMORPG",
             "title": "Blade&Soul",
@@ -456,13 +456,13 @@
     "SideShow": [
         {
             "id": 1,
-            "img": "/sideshow1.png",
+            "img": "/sideshow1.jpg",
             "alt": "valorant pic",
             "link": "One Of The Best FPS Games"
         },
         {
             "id": 2,
-            "img": "/sideshow2.png",
+            "img": "/sideshow2.jfif",
             "alt": "albion pic",
             "link": "One Of The Best sandbox Games"
         },
@@ -554,7 +554,7 @@
     "RpgLeft": [
         {
             "id": 1,
-            "img": "/rpgleft1.png",
+            "img": "/rpgleft1.jpg",
             "alt": "elden",
             "link": "RolePG",
             "title": "One of the best games of the last 12 months"
@@ -570,7 +570,7 @@
     "RpgRight": [
         {
             "id": 1,
-            "img": "/rpgright1.png",
+            "img": "/rpgright1.jpg",
             "title": "One of the best games of the last 12 months",
             "link": "RPG",
             "alt": "StarWars"
@@ -794,7 +794,7 @@
         },
         {
             "id": 2,
-            "img": "/mmorpg9.png",
+            "img": "/mmorpg9.jpg",
             "title": "Best Mmo Games",
             "link": "mmo",
             "subject": "One of the best games of the last 12 months One of the best games of the last 12 months"
@@ -803,7 +803,7 @@
     "RpgPart1": [
         {
             "id": 1,
-            "img": "/rpg1.png",
+            "img": "/rpg1.jpeg",
             "title": "One Of The Best RPG Games",
             "link": "RolePG",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
@@ -817,7 +817,7 @@
         },
         {
             "id": 3,
-            "img": "/rpg3.png",
+            "img": "/rpg3.jpg",
             "title": "One Of The Best RPG Games",
             "link": "RolePG",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
@@ -847,7 +847,7 @@
         },
         {
             "id": 4,
-            "img": "/rpg7.png",
+            "img": "/rpg7.jpg",
             "title": "One Of The Best RPG Games",
             "link": "RolePG",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
@@ -856,7 +856,7 @@
     "RpgPart3": [
         {
             "id": 1,
-            "img": "/rpg8.png",
+            "img": "/rpg8.jpg",
             "title": "One Of The Best RPG Games",
             "subject": " One of the best games of the last 12 months of the best games of the last 12 months"
         },
@@ -884,7 +884,7 @@
         },
         {
             "id": 3,
-            "img": "/fps3.png",
+            "img": "/fps3.jpg",
             "title": "One Of The Best FPS Games",
             "link": "shooters",
             "subject": "One of the best games of the last 12 months One of the best games of the last 12 months"
@@ -962,7 +962,7 @@
     "MoreinMmo": [
         {
             "id": 1,
-            "img": "/moreinmmo1.png",
+            "img": "/moreinmmo1.jpg",
             "title": "One of the best games of the last 12 months One of the best games of the last 12 months "
         },
         {
